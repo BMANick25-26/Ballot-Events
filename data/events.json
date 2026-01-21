@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-01-21T14:40:34.779910Z",
+    "generated_at": "2026-01-21T14:44:03.613441Z",
     "event_count": 156
   },
   "events": [
@@ -601,13 +601,13 @@
     {
       "region": "North Thames",
       "date": "2025-12-16",
-      "location": "Royal London",
+      "location": "Royal London hospital Whitechapel",
       "event_type": "BMA rep visit",
       "notes": "",
       "lead": "Juliet Thornton + Nikos Manetas",
-      "lat": 55.9448716,
-      "lon": -3.2233493,
-      "location_key": "royal london"
+      "lat": 51.518688,
+      "lon": -0.0611327,
+      "location_key": "royal london hospital whitechapel"
     },
     {
       "region": "North Thames",
