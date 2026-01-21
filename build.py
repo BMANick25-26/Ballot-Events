@@ -6,11 +6,9 @@ from pathlib import Path
 import pandas as pd
 import requests
 
-USER_AGENT = os.environ.get(
-    "NOMINATIM_USER_AGENT",
-    "ballot-events-map/1.0 (contact: ndalmon@bma.org.uk)"
-    CONTACT_EMAIL = "ndalmon@bma.org.uk"
-)
+USER_AGENT = "ballot-events-map/1.0 (contact: ndalmon@bma.org.uk)"
+CONTACT_EMAIL = "ndalmon@bma.org.uk"
+
 
 EXCEL_PATH = "events.xlsx"
 OUT_PATH = Path("data/events.json")
