@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-01-20T23:54:17.390765Z",
+    "generated_at": "2026-01-21T00:32:12.996398Z",
     "source_excel": "events.xlsx",
     "event_count": 156,
-    "note": "Lat/lon will be filled by GitHub Actions build (geocoding)."
+    "unique_locations": 129
   },
   "events": [
     {
@@ -15,8 +15,8 @@
       "notes": "",
       "lead": "Kaya Jobson",
       "id": "EVT-0001",
-      "lat": null,
-      "lon": null,
+      "lat": 55.0249713,
+      "lon": -1.4667898,
       "location_key": "north tyneside hospital"
     },
     {
@@ -28,8 +28,8 @@
       "notes": "",
       "lead": "Sheryl Higham",
       "id": "EVT-0002",
-      "lat": null,
-      "lon": null,
+      "lat": 54.9832382,
+      "lon": -1.62291,
       "location_key": "north terrace, newcastle"
     },
     {
@@ -41,8 +41,8 @@
       "notes": "",
       "lead": "Callum Parr, Jack Fletcher",
       "id": "EVT-0003",
-      "lat": null,
-      "lon": null,
+      "lat": 54.5519996,
+      "lon": -1.2085253,
       "location_key": "james cook university hospital"
     },
     {
@@ -54,8 +54,8 @@
       "notes": "Joint (via teams) event with JCUH",
       "lead": "Jack Fletcher",
       "id": "EVT-0004",
-      "lat": null,
-      "lon": null,
+      "lat": 54.3424534,
+      "lon": -1.4301501,
       "location_key": "friarage hospital"
     },
     {
@@ -67,8 +67,8 @@
       "notes": "",
       "lead": "Andrew Lister, Sheryl Higham",
       "id": "EVT-0005",
-      "lat": null,
-      "lon": null,
+      "lat": 54.9625789,
+      "lon": -1.6019294,
       "location_key": "gateshead"
     },
     {
@@ -80,8 +80,8 @@
       "notes": "",
       "lead": "Jack Fletcher",
       "id": "EVT-0006",
-      "lat": null,
-      "lon": null,
+      "lat": 54.574241,
+      "lon": -1.2747921,
       "location_key": "north tees"
     },
     {
@@ -93,8 +93,8 @@
       "notes": "",
       "lead": "Connor Danson",
       "id": "EVT-0007",
-      "lat": null,
-      "lon": null,
+      "lat": 54.9795431,
+      "lon": -1.6196601,
       "location_key": "rvi hospital"
     },
     {
@@ -106,8 +106,8 @@
       "notes": "",
       "lead": "Connor Danson",
       "id": "EVT-0008",
-      "lat": null,
-      "lon": null,
+      "lat": 55.002468,
+      "lon": -1.5937829,
       "location_key": "freeman hospital"
     },
     {
@@ -119,8 +119,8 @@
       "notes": "",
       "lead": "Sheryl Higham",
       "id": "EVT-0009",
-      "lat": null,
-      "lon": null,
+      "lat": 54.9027697,
+      "lon": -1.4087055,
       "location_key": "sunderland royal hospital"
     },
     {
@@ -132,8 +132,8 @@
       "notes": "",
       "lead": "Josie Hardcastle",
       "id": "EVT-0010",
-      "lat": null,
-      "lon": null,
+      "lat": 54.8959915,
+      "lon": -2.9556823,
       "location_key": "carlisle infirmary"
     },
     {
@@ -145,8 +145,8 @@
       "notes": "",
       "lead": "Jordan Lynch",
       "id": "EVT-0011",
-      "lat": null,
-      "lon": null,
+      "lat": 54.5306627,
+      "lon": -1.5636355,
       "location_key": "darlington memorial hospital"
     },
     {
@@ -158,8 +158,8 @@
       "notes": "",
       "lead": "Sheryl Higham, Kaya Jobson",
       "id": "EVT-0012",
-      "lat": null,
-      "lon": null,
+      "lat": 55.0748952,
+      "lon": -1.5687128,
       "location_key": "northumbria hospital"
     },
     {
@@ -171,8 +171,8 @@
       "notes": "",
       "lead": "Sheryl Higham",
       "id": "EVT-0013",
-      "lat": null,
-      "lon": null,
+      "lat": 55.1841218,
+      "lon": -1.5451618,
       "location_key": "wansbeck hospital"
     },
     {
@@ -184,8 +184,8 @@
       "notes": "",
       "lead": "Sheryl Higham",
       "id": "EVT-0014",
-      "lat": null,
-      "lon": null,
+      "lat": 54.9730673,
+      "lon": -1.4312761,
       "location_key": "south tyneside hospital"
     },
     {
@@ -197,8 +197,8 @@
       "notes": "",
       "lead": "",
       "id": "EVT-0015",
-      "lat": null,
-      "lon": null,
+      "lat": 54.9027697,
+      "lon": -1.4087055,
       "location_key": "sunderland royal hospital"
     },
     {
@@ -223,8 +223,8 @@
       "notes": "",
       "lead": "Jack Fletcher/ Shazia Karim",
       "id": "EVT-0017",
-      "lat": null,
-      "lon": null,
+      "lat": 53.410476,
+      "lon": -1.4574487,
       "location_key": "sheffield northern hospital"
     },
     {
@@ -236,8 +236,8 @@
       "notes": "",
       "lead": "Francesco Palazzo & Claire",
       "id": "EVT-0018",
-      "lat": null,
-      "lon": null,
+      "lat": 53.8186802,
+      "lon": -1.318918,
       "location_key": "st james leeds"
     },
     {
@@ -262,8 +262,8 @@
       "notes": "",
       "lead": "Mohmed",
       "id": "EVT-0020",
-      "lat": null,
-      "lon": null,
+      "lat": 53.6466645,
+      "lon": -1.7822482,
       "location_key": "huddersfield"
     },
     {
@@ -288,8 +288,8 @@
       "notes": "",
       "lead": "Becky",
       "id": "EVT-0022",
-      "lat": null,
-      "lon": null,
+      "lat": 51.5135365,
+      "lon": -0.3206893,
       "location_key": "castle hill"
     },
     {
@@ -301,8 +301,8 @@
       "notes": "",
       "lead": "Chris & Claire Mitchell",
       "id": "EVT-0023",
-      "lat": null,
-      "lon": null,
+      "lat": 53.7204748,
+      "lon": -1.9622886,
       "location_key": "calderdale"
     },
     {
@@ -314,8 +314,8 @@
       "notes": "",
       "lead": "Becky  & Claire",
       "id": "EVT-0024",
-      "lat": null,
-      "lon": null,
+      "lat": 53.7623863,
+      "lon": -0.3301214,
       "location_key": "hull"
     },
     {
@@ -327,8 +327,8 @@
       "notes": "",
       "lead": "CJ",
       "id": "EVT-0025",
-      "lat": null,
-      "lon": null,
+      "lat": 53.8023565,
+      "lon": -1.5547712,
       "location_key": "leeds general"
     },
     {
@@ -340,8 +340,8 @@
       "notes": "",
       "lead": "Claire",
       "id": "EVT-0026",
-      "lat": null,
-      "lon": null,
+      "lat": 53.5922488,
+      "lon": -0.6450841,
       "location_key": "scunthorpe"
     },
     {
@@ -353,8 +353,8 @@
       "notes": "",
       "lead": "Becky",
       "id": "EVT-0027",
-      "lat": null,
-      "lon": null,
+      "lat": 53.5671407,
+      "lon": -0.0788045,
       "location_key": "grimsby"
     },
     {
@@ -366,8 +366,8 @@
       "notes": "",
       "lead": "Lucy & Claire Mitchell",
       "id": "EVT-0028",
-      "lat": null,
-      "lon": null,
+      "lat": 53.693719,
+      "lon": -1.4882931,
       "location_key": "pinderfields"
     },
     {
@@ -379,8 +379,8 @@
       "notes": "",
       "lead": "Animesh Jayaswal",
       "id": "EVT-0029",
-      "lat": null,
-      "lon": null,
+      "lat": 53.5522814,
+      "lon": -2.42954,
       "location_key": "royal bolton hospital"
     },
     {
@@ -392,8 +392,8 @@
       "notes": "",
       "lead": "Shehza Shafeek",
       "id": "EVT-0030",
-      "lat": null,
-      "lon": null,
+      "lat": 53.5174601,
+      "lon": -2.2287489,
       "location_key": "north manchester general hospital"
     },
     {
@@ -405,8 +405,8 @@
       "notes": "",
       "lead": "Idil Ozturk",
       "id": "EVT-0031",
-      "lat": null,
-      "lon": null,
+      "lat": 53.4296418,
+      "lon": -2.2302095,
       "location_key": "the christie"
     },
     {
@@ -418,8 +418,8 @@
       "notes": "",
       "lead": "Vivek Trivedi",
       "id": "EVT-0032",
-      "lat": null,
-      "lon": null,
+      "lat": 53.8179442,
+      "lon": -3.0509812,
       "location_key": "blackpool"
     },
     {
@@ -431,8 +431,8 @@
       "notes": "",
       "lead": "Fabbiha, Vivek Trivedi",
       "id": "EVT-0033",
-      "lat": null,
-      "lon": null,
+      "lat": 53.4877463,
+      "lon": -2.2891921,
       "location_key": "salford"
     },
     {
@@ -444,8 +444,8 @@
       "notes": "",
       "lead": "Rohan S,  Molly ?, Jack Fletcher, Callum Parr, Vivek Trivedi",
       "id": "EVT-0034",
-      "lat": null,
-      "lon": null,
+      "lat": 53.4629228,
+      "lon": -2.2261028,
       "location_key": "manchester royal infirmary"
     },
     {
@@ -457,8 +457,8 @@
       "notes": "",
       "lead": "Dervla Ireland",
       "id": "EVT-0035",
-      "lat": null,
-      "lon": null,
+      "lat": 53.3803596,
+      "lon": -2.2632079,
       "location_key": "wythenshawe"
     },
     {
@@ -470,8 +470,8 @@
       "notes": "",
       "lead": "Mohammed Kamora",
       "id": "EVT-0036",
-      "lat": null,
-      "lon": null,
+      "lat": 53.7593363,
+      "lon": -2.6992717,
       "location_key": "preston"
     },
     {
@@ -483,8 +483,8 @@
       "notes": "",
       "lead": "Josh / George",
       "id": "EVT-0037",
-      "lat": null,
-      "lon": null,
+      "lat": 53.5457188,
+      "lon": -2.6264624,
       "location_key": "wigan"
     },
     {
@@ -496,8 +496,8 @@
       "notes": "",
       "lead": "Fabbiha",
       "id": "EVT-0038",
-      "lat": null,
-      "lon": null,
+      "lat": 53.5415797,
+      "lon": -2.1147831,
       "location_key": "oldham"
     },
     {
@@ -509,8 +509,8 @@
       "notes": "",
       "lead": "Chantae",
       "id": "EVT-0039",
-      "lat": null,
-      "lon": null,
+      "lat": 53.3836359,
+      "lon": -2.1285551,
       "location_key": "stepping hill stockport"
     },
     {
@@ -522,8 +522,8 @@
       "notes": "",
       "lead": "Haran",
       "id": "EVT-0040",
-      "lat": null,
-      "lon": null,
+      "lat": 53.749326,
+      "lon": -2.4840566,
       "location_key": "blackburn"
     },
     {
@@ -535,8 +535,8 @@
       "notes": "",
       "lead": "Kartik Goyal, Jack Fletcher, Callum Parr",
       "id": "EVT-0041",
-      "lat": null,
-      "lon": null,
+      "lat": 53.409231,
+      "lon": -2.9623488,
       "location_key": "royal liverpool hospital"
     },
     {
@@ -548,8 +548,8 @@
       "notes": "",
       "lead": "Kartik Goyal, Jack Fletcher, Callum Parr",
       "id": "EVT-0042",
-      "lat": null,
-      "lon": null,
+      "lat": 53.420429,
+      "lon": -2.7846238,
       "location_key": "whiston hospital"
     },
     {
@@ -561,8 +561,8 @@
       "notes": "",
       "lead": "Shivam Sharma, Callum Parr, Jack Fletcher",
       "id": "EVT-0043",
-      "lat": null,
-      "lon": null,
+      "lat": 52.4513501,
+      "lon": -1.9418594,
       "location_key": "queen elizabeth hospital birmingham"
     },
     {
@@ -574,8 +574,8 @@
       "notes": "",
       "lead": "Pete Fahey, Tom O'Rouke",
       "id": "EVT-0044",
-      "lat": null,
-      "lon": null,
+      "lat": 51.5013851,
+      "lon": -0.2849707,
       "location_key": "online"
     },
     {
@@ -587,8 +587,8 @@
       "notes": "",
       "lead": "Arjan Singh, Jack Fletcher",
       "id": "EVT-0045",
-      "lat": null,
-      "lon": null,
+      "lat": 52.6266614,
+      "lon": -1.1352374,
       "location_key": "leicester royal infirmary"
     },
     {
@@ -600,8 +600,8 @@
       "notes": "",
       "lead": "Mohammed Rafe Hussain",
       "id": "EVT-0046",
-      "lat": null,
-      "lon": null,
+      "lat": 51.5013851,
+      "lon": -0.2849707,
       "location_key": "online"
     },
     {
@@ -613,8 +613,8 @@
       "notes": "",
       "lead": "Jack Fletcher, Callum Parr",
       "id": "EVT-0047",
-      "lat": null,
-      "lon": null,
+      "lat": 52.1736913,
+      "lon": 0.1379141,
       "location_key": "cambridge university hospitals"
     },
     {
@@ -626,8 +626,8 @@
       "notes": "Ward walk",
       "lead": "Tom Corkery-Bennett tcorkery-bennett@bma.org.uk / Heather Gunn",
       "id": "EVT-0048",
-      "lat": null,
-      "lon": null,
+      "lat": 51.7641179,
+      "lon": -1.2180636,
       "location_key": "john radcliffe hospital"
     },
     {
@@ -639,8 +639,8 @@
       "notes": "Ward walk",
       "lead": "Tom Corkery-Bennett tcorkery-bennett@bma.co.uk / Zain Shah / Liam Elley",
       "id": "EVT-0049",
-      "lat": null,
-      "lon": null,
+      "lat": 51.5322083,
+      "lon": -0.5737328,
       "location_key": "wexham park hospital"
     },
     {
@@ -652,8 +652,8 @@
       "notes": "Ward walk",
       "lead": "Tom Corkery-Bennett tcorkery-bennett@bma.org.uk /Zain Shah",
       "id": "EVT-0050",
-      "lat": null,
-      "lon": null,
+      "lat": 51.4491758,
+      "lon": -0.958114,
       "location_key": "royal berkshire hospital"
     },
     {
@@ -678,8 +678,8 @@
       "notes": "Ward walk",
       "lead": "Tom Corkery-Bennett tcorkery-bennett@bma.org.uk/ Sanjana Murali",
       "id": "EVT-0052",
-      "lat": null,
-      "lon": null,
+      "lat": 52.0262825,
+      "lon": -0.7359102,
       "location_key": "milton keynes university hospital"
     },
     {
@@ -691,8 +691,8 @@
       "notes": "Ward walk",
       "lead": "Tom Corkery-Bennett tcorkery-bennett@bma.org.uk /Zain Shah / James Everson / Heather Gunn / Matt Bilton",
       "id": "EVT-0053",
-      "lat": null,
-      "lon": null,
+      "lat": 51.7641179,
+      "lon": -1.2180636,
       "location_key": "john radcliffe hospital"
     },
     {
@@ -704,8 +704,8 @@
       "notes": "",
       "lead": "Shivam Sharma + Nikos Manetas",
       "id": "EVT-0054",
-      "lat": null,
-      "lon": null,
+      "lat": 53.4743993,
+      "lon": -2.5811602,
       "location_key": "st mary’s (imperial)"
     },
     {
@@ -717,8 +717,8 @@
       "notes": "",
       "lead": "Juliet Thornton + Nikos Manetas",
       "id": "EVT-0055",
-      "lat": null,
-      "lon": null,
+      "lat": 55.9448716,
+      "lon": -3.2233493,
       "location_key": "royal london"
     },
     {
@@ -743,8 +743,8 @@
       "notes": "",
       "lead": "Aadam Aziz",
       "id": "EVT-0057",
-      "lat": null,
-      "lon": null,
+      "lat": 51.5525935,
+      "lon": -0.4156549,
       "location_key": "c middlesex"
     },
     {
@@ -795,8 +795,8 @@
       "notes": "",
       "lead": "Shivam Sharma",
       "id": "EVT-0061",
-      "lat": null,
-      "lon": null,
+      "lat": 51.5238264,
+      "lon": -0.1363481,
       "location_key": "uclh"
     },
     {
@@ -821,8 +821,8 @@
       "notes": "",
       "lead": "Serene",
       "id": "EVT-0063",
-      "lat": null,
-      "lon": null,
+      "lat": 51.5809809,
+      "lon": -0.0867797,
       "location_key": "barnet enfield and haringey"
     },
     {
@@ -834,8 +834,8 @@
       "notes": "",
       "lead": "Aadam Aziz",
       "id": "EVT-0064",
-      "lat": null,
-      "lon": null,
+      "lat": 51.5067116,
+      "lon": -0.1469403,
       "location_key": "st charles"
     },
     {
@@ -860,8 +860,8 @@
       "notes": "",
       "lead": "Shivam Sharma",
       "id": "EVT-0066",
-      "lat": null,
-      "lon": null,
+      "lat": 51.532568,
+      "lon": -0.4807,
       "location_key": "west london"
     },
     {
@@ -873,8 +873,8 @@
       "notes": "",
       "lead": "Shivam Sharma",
       "id": "EVT-0067",
-      "lat": null,
-      "lon": null,
+      "lat": 51.5128964,
+      "lon": -0.1341339,
       "location_key": "gosh"
     },
     {
@@ -886,8 +886,8 @@
       "notes": "",
       "lead": "Michelle D'Souza",
       "id": "EVT-0068",
-      "lat": null,
-      "lon": null,
+      "lat": 51.5425193,
+      "lon": -0.4483349,
       "location_key": "hillingdon"
     },
     {
@@ -912,8 +912,8 @@
       "notes": "",
       "lead": "Michelle D'Souza",
       "id": "EVT-0070",
-      "lat": null,
-      "lon": null,
+      "lat": 51.5425193,
+      "lon": -0.4483349,
       "location_key": "hillingdon"
     },
     {
@@ -925,8 +925,8 @@
       "notes": "",
       "lead": "Juliet Thornton",
       "id": "EVT-0071",
-      "lat": null,
-      "lon": null,
+      "lat": 51.6127558,
+      "lon": -0.0736167,
       "location_key": "n middlesex"
     },
     {
@@ -938,8 +938,8 @@
       "notes": "",
       "lead": "Pierre Jean Marie",
       "id": "EVT-0072",
-      "lat": null,
-      "lon": null,
+      "lat": 51.581543,
+      "lon": -0.0001023,
       "location_key": "whipps cross"
     },
     {
@@ -951,8 +951,8 @@
       "notes": "",
       "lead": "Tim Combley",
       "id": "EVT-0073",
-      "lat": null,
-      "lon": null,
+      "lat": 51.5300157,
+      "lon": 0.0293091,
       "location_key": "newham"
     },
     {
@@ -964,8 +964,8 @@
       "notes": "",
       "lead": "Shivam Sharma",
       "id": "EVT-0074",
-      "lat": null,
-      "lon": null,
+      "lat": 33.0747964,
+      "lon": -96.7522301,
       "location_key": "charring cross"
     },
     {
@@ -977,8 +977,8 @@
       "notes": "",
       "lead": "Juliet Thornton",
       "id": "EVT-0075",
-      "lat": null,
-      "lon": null,
+      "lat": 53.4743993,
+      "lon": -2.5811602,
       "location_key": "st mary’s (imperial)"
     },
     {
@@ -990,8 +990,8 @@
       "notes": "",
       "lead": "Rob Tucker",
       "id": "EVT-0076",
-      "lat": null,
-      "lon": null,
+      "lat": 51.6507787,
+      "lon": -0.2142332,
       "location_key": "barnet hospital"
     },
     {
@@ -1003,8 +1003,8 @@
       "notes": "",
       "lead": "Juliet Thornton, Nikos Manetas",
       "id": "EVT-0077",
-      "lat": null,
-      "lon": null,
+      "lat": 52.8040025,
+      "lon": -4.7141157,
       "location_key": "queen’s"
     },
     {
@@ -1016,8 +1016,8 @@
       "notes": "",
       "lead": "Juliet Thornton, Nikos Manetas",
       "id": "EVT-0078",
-      "lat": null,
-      "lon": null,
+      "lat": 52.9141118,
+      "lon": -4.1761257,
       "location_key": "king george’s"
     },
     {
@@ -1029,8 +1029,8 @@
       "notes": "",
       "lead": "Michelle D'Souza + Juliet Thornton",
       "id": "EVT-0079",
-      "lat": null,
-      "lon": null,
+      "lat": 51.5529389,
+      "lon": -0.1654964,
       "location_key": "royal free"
     },
     {
@@ -1042,8 +1042,8 @@
       "notes": "",
       "lead": "Juliet Thornton, Nikos Manetas",
       "id": "EVT-0080",
-      "lat": null,
-      "lon": null,
+      "lat": 51.5470789,
+      "lon": -0.043121,
       "location_key": "homerton"
     },
     {
@@ -1055,8 +1055,8 @@
       "notes": "",
       "lead": "Juliet Thornton, Nikos Manetas",
       "id": "EVT-0081",
-      "lat": null,
-      "lon": null,
+      "lat": 51.5175315,
+      "lon": -0.0998302,
       "location_key": "barts"
     },
     {
@@ -1094,8 +1094,8 @@
       "notes": "",
       "lead": "Michelle D'Souza",
       "id": "EVT-0084",
-      "lat": null,
-      "lon": null,
+      "lat": 51.5238264,
+      "lon": -0.1363481,
       "location_key": "uclh"
     },
     {
@@ -1107,8 +1107,8 @@
       "notes": "",
       "lead": "Jack Fletcher, Haseena Wazir, Callum Parr",
       "id": "EVT-0085",
-      "lat": null,
-      "lon": null,
+      "lat": 51.5238264,
+      "lon": -0.1363481,
       "location_key": "uclh"
     },
     {
@@ -1133,8 +1133,8 @@
       "notes": "",
       "lead": "Haseena Wazir (STRRDC), Jack Fletcher (UKRDC officer), Callum Parr (UKRDC officer)",
       "id": "EVT-0087",
-      "lat": null,
-      "lon": null,
+      "lat": 51.4990645,
+      "lon": -0.1186968,
       "location_key": "st thomas' hospital"
     },
     {
@@ -1159,8 +1159,8 @@
       "notes": "",
       "lead": "Haseena Wazir (STRRDC)",
       "id": "EVT-0089",
-      "lat": null,
-      "lon": null,
+      "lat": 51.3435444,
+      "lon": -0.1906959,
       "location_key": "royal marsden - sutton"
     },
     {
@@ -1172,8 +1172,8 @@
       "notes": "",
       "lead": "Haseena Wazir (STRRDC)",
       "id": "EVT-0090",
-      "lat": null,
-      "lon": null,
+      "lat": 51.3900897,
+      "lon": -0.1103109,
       "location_key": "croydon hospital"
     },
     {
@@ -1211,8 +1211,8 @@
       "notes": "",
       "lead": "Haseena Wazir (STRRDC)",
       "id": "EVT-0093",
-      "lat": null,
-      "lon": null,
+      "lat": 51.4983028,
+      "lon": -0.118463,
       "location_key": "evelina hospital"
     },
     {
@@ -1224,8 +1224,8 @@
       "notes": "",
       "lead": "Haseena Wazir (STRRDC), Sarah Zbeidy (STRRDC)",
       "id": "EVT-0094",
-      "lat": null,
-      "lon": null,
+      "lat": 51.5032099,
+      "lon": -0.0867273,
       "location_key": "guy's hospital"
     },
     {
@@ -1237,8 +1237,8 @@
       "notes": "",
       "lead": "Haseena Wazir (STRRDC), Sarah Zbeidy (STRRDC)",
       "id": "EVT-0095",
-      "lat": null,
-      "lon": null,
+      "lat": 51.4990645,
+      "lon": -0.1186968,
       "location_key": "st thomas' hospital"
     },
     {
@@ -1263,8 +1263,8 @@
       "notes": "",
       "lead": "Haseena Wazir (STRRDC)",
       "id": "EVT-0097",
-      "lat": null,
-      "lon": null,
+      "lat": 51.4777395,
+      "lon": 0.0498096,
       "location_key": "queen elizabeth hospital (woolwich)"
     },
     {
@@ -1276,8 +1276,8 @@
       "notes": "",
       "lead": "Haseena Wazir (STRRDC)",
       "id": "EVT-0098",
-      "lat": null,
-      "lon": null,
+      "lat": 51.4533004,
+      "lon": -0.0164929,
       "location_key": "lewisham hospital"
     },
     {
@@ -1289,8 +1289,8 @@
       "notes": "",
       "lead": "Hamza Khan and Niamh Humphreys (LNC reps), Haseena Wazir (STRRDC point of contact)",
       "id": "EVT-0099",
-      "lat": null,
-      "lon": null,
+      "lat": 51.4777395,
+      "lon": 0.0498096,
       "location_key": "queen elizabeth hospital (woolwich)"
     },
     {
@@ -1302,8 +1302,8 @@
       "notes": "",
       "lead": "Niamh Humphreys (LNC rep), Haseena Wazir (STRRDC point of contact)",
       "id": "EVT-0100",
-      "lat": null,
-      "lon": null,
+      "lat": 51.4777395,
+      "lon": 0.0498096,
       "location_key": "queen elizabeth hospital (woolwich)"
     },
     {
@@ -1315,8 +1315,8 @@
       "notes": "",
       "lead": "Hamza Khan (LNC rep), Haseena Wazir (STRRDC point of contact)",
       "id": "EVT-0101",
-      "lat": null,
-      "lon": null,
+      "lat": 51.4533004,
+      "lon": -0.0164929,
       "location_key": "lewisham hospital"
     },
     {
@@ -1328,8 +1328,8 @@
       "notes": "",
       "lead": "Haseena Wazir (STRRDC)",
       "id": "EVT-0102",
-      "lat": null,
-      "lon": null,
+      "lat": 51.426433,
+      "lon": -0.175836,
       "location_key": "st george's hospital"
     },
     {
@@ -1341,8 +1341,8 @@
       "notes": "",
       "lead": "Nick Dalmon (STRRDC), Jacob Tiddy (LNC rep), Isa Leal De Tartaro Costa (LNC rep)",
       "id": "EVT-0103",
-      "lat": null,
-      "lon": null,
+      "lat": 51.359052,
+      "lon": -1.2584282,
       "location_key": "ashford and st peters"
     },
     {
@@ -1354,8 +1354,8 @@
       "notes": "",
       "lead": "Nick Dalmon (STRRDC)",
       "id": "EVT-0104",
-      "lat": null,
-      "lon": null,
+      "lat": 51.0760666,
+      "lon": 1.1727088,
       "location_key": "william harvey"
     },
     {
@@ -1367,8 +1367,8 @@
       "notes": "",
       "lead": "Milo Simpson (STRRDC)",
       "id": "EVT-0105",
-      "lat": null,
-      "lon": null,
+      "lat": 50.819242,
+      "lon": -0.1188762,
       "location_key": "royal sussex county hospital"
     },
     {
@@ -1393,8 +1393,8 @@
       "notes": "",
       "lead": "Golnoush Seyedzenouzi (LNC rep), Haseena Wazir (STRRDC point of contact)",
       "id": "EVT-0107",
-      "lat": null,
-      "lon": null,
+      "lat": 51.426433,
+      "lon": -0.175836,
       "location_key": "st george's hospital"
     },
     {
@@ -1432,8 +1432,8 @@
       "notes": "",
       "lead": "Abdelaziz Habiba (LNC rep), Nick Dalmon (STRRDC)",
       "id": "EVT-0110",
-      "lat": null,
-      "lon": null,
+      "lat": 51.4347322,
+      "lon": 0.258581,
       "location_key": "darent valley"
     },
     {
@@ -1445,8 +1445,8 @@
       "notes": "",
       "lead": "Abdelaziz Habiba (LNC rep), Nick Dalmon (STRRDC point of contact)",
       "id": "EVT-0111",
-      "lat": null,
-      "lon": null,
+      "lat": 51.4347322,
+      "lon": 0.258581,
       "location_key": "darent valley"
     },
     {
@@ -1458,8 +1458,8 @@
       "notes": "",
       "lead": "Farida Hegazy (LNC rep), Nick Dalmon (STRRDC point of contact)",
       "id": "EVT-0112",
-      "lat": null,
-      "lon": null,
+      "lat": 51.4157386,
+      "lon": 0.5687309,
       "location_key": "medway"
     },
     {
@@ -1471,8 +1471,8 @@
       "notes": "",
       "lead": "Jacob Tiddy (LNC rep), Nick Dalmon (STRRDC point of contact)",
       "id": "EVT-0113",
-      "lat": null,
-      "lon": null,
+      "lat": 51.359052,
+      "lon": -1.2584282,
       "location_key": "ashford and st peters"
     },
     {
@@ -1510,8 +1510,8 @@
       "notes": "",
       "lead": "Milo Simpson (STRRDC), Brogan Byrne (resident doctor), Emily Cobb (LNC rep)",
       "id": "EVT-0116",
-      "lat": null,
-      "lon": null,
+      "lat": 50.8165539,
+      "lon": -0.3639575,
       "location_key": "worthing hospital"
     },
     {
@@ -1523,8 +1523,8 @@
       "notes": "",
       "lead": "James Chu (LNC rep), Samuel Knights (LNC rep), Milo Simpson (STRRDC point of contact)",
       "id": "EVT-0117",
-      "lat": null,
-      "lon": null,
+      "lat": 50.8439406,
+      "lon": -0.7690259,
       "location_key": "st richard's hospital"
     },
     {
@@ -1536,8 +1536,8 @@
       "notes": "",
       "lead": "Sarah Zbeidy (STRRDC), Aamena Nasir (LNC rep)",
       "id": "EVT-0118",
-      "lat": null,
-      "lon": null,
+      "lat": 51.3196613,
+      "lon": -0.7416616,
       "location_key": "frimley park hospital"
     },
     {
@@ -1549,8 +1549,8 @@
       "notes": "",
       "lead": "Sarah Zbeidy (STRRDC)",
       "id": "EVT-0119",
-      "lat": null,
-      "lon": null,
+      "lat": 51.3196613,
+      "lon": -0.7416616,
       "location_key": "frimley park hospital"
     },
     {
@@ -1562,8 +1562,8 @@
       "notes": "",
       "lead": "Sarah Zbeidy (STRRDC)",
       "id": "EVT-0120",
-      "lat": null,
-      "lon": null,
+      "lat": 51.2411952,
+      "lon": -0.6088029,
       "location_key": "royal surrey county hospital"
     },
     {
@@ -1588,8 +1588,8 @@
       "notes": "",
       "lead": "Tom Cheliotis James (STRRDC)",
       "id": "EVT-0122",
-      "lat": null,
-      "lon": null,
+      "lat": 51.4681331,
+      "lon": -0.0936682,
       "location_key": "king's college hospital"
     },
     {
@@ -1601,8 +1601,8 @@
       "notes": "",
       "lead": "Niamh Humphreys (LNC rep), Haseena Wazir (STRRDC point of contact)",
       "id": "EVT-0123",
-      "lat": null,
-      "lon": null,
+      "lat": 51.4777395,
+      "lon": 0.0498096,
       "location_key": "queen elizabeth hospital (woolwich)"
     },
     {
@@ -1614,8 +1614,8 @@
       "notes": "",
       "lead": "Sarah Zbeidy (STRRDC point of contact)",
       "id": "EVT-0124",
-      "lat": null,
-      "lon": null,
+      "lat": 51.4149844,
+      "lon": -0.2825102,
       "location_key": "kingston hospital"
     },
     {
@@ -1653,8 +1653,8 @@
       "notes": "",
       "lead": "Nick Dalmon (STRRDC)",
       "id": "EVT-0127",
-      "lat": null,
-      "lon": null,
+      "lat": 50.9236547,
+      "lon": 0.7104036,
       "location_key": "east sussex trust"
     },
     {
@@ -1679,8 +1679,8 @@
       "notes": "",
       "lead": "Nick Dalmon (STRRDC point of contact), Farida Hegazy (LNC rep)",
       "id": "EVT-0129",
-      "lat": null,
-      "lon": null,
+      "lat": 51.4157386,
+      "lon": 0.5687309,
       "location_key": "medway"
     },
     {
@@ -1692,8 +1692,8 @@
       "notes": "",
       "lead": "Alexander Martindale (STRRDC)",
       "id": "EVT-0130",
-      "lat": null,
-      "lon": null,
+      "lat": 51.4681331,
+      "lon": -0.0936682,
       "location_key": "king's college hospital"
     },
     {
@@ -1705,8 +1705,8 @@
       "notes": "",
       "lead": "Milo Simpson (STRRDC), Somar ALbani (LNC rep)",
       "id": "EVT-0131",
-      "lat": null,
-      "lon": null,
+      "lat": 52.7123772,
+      "lon": -2.5119204,
       "location_key": "princess royal hospital"
     },
     {
@@ -1718,8 +1718,8 @@
       "notes": "",
       "lead": "Milo Simpson (STRRDC)",
       "id": "EVT-0132",
-      "lat": null,
-      "lon": null,
+      "lat": 50.819242,
+      "lon": -0.1188762,
       "location_key": "royal sussex county hospital"
     },
     {
@@ -1757,8 +1757,8 @@
       "notes": "",
       "lead": "Nick Dalmon (STRRDC)",
       "id": "EVT-0135",
-      "lat": null,
-      "lon": null,
+      "lat": 51.4157386,
+      "lon": 0.5687309,
       "location_key": "medway"
     },
     {
@@ -1803,7 +1803,7 @@
     {
       "region": "Wessex",
       "date": "2026-01-16",
-      "start_time": null,
+      "start_time": "13:00",
       "location": "RHCH Winchester Mess",
       "event_type": "Pay & Pizza",
       "notes": "",
@@ -1816,7 +1816,7 @@
     {
       "region": "Wessex",
       "date": "2026-01-19",
-      "start_time": null,
+      "start_time": "13:00",
       "location": "BNHH Basingstoke Mess",
       "event_type": "Pay & Pizza",
       "notes": "",
@@ -1842,20 +1842,20 @@
     {
       "region": "Wessex",
       "date": "2026-01-20",
-      "start_time": null,
+      "start_time": "13:00",
       "location": "Southampton General Hospital",
       "event_type": "Roadshow/ pay and pizza event",
       "notes": "",
       "lead": "J Flint-Cahan, N Blackmore, A Wright",
       "id": "EVT-0142",
-      "lat": null,
-      "lon": null,
+      "lat": 50.9325418,
+      "lon": -1.435113,
       "location_key": "southampton general hospital"
     },
     {
       "region": "Wessex",
       "date": "2026-01-22",
-      "start_time": null,
+      "start_time": "16:50",
       "location": "Morrgreen Hospital (Community Trust)",
       "event_type": "In Person event",
       "notes": "",
@@ -1874,8 +1874,8 @@
       "notes": "",
       "lead": "L Mitchelson, Zenahrai Eastwood, A Wright",
       "id": "EVT-0144",
-      "lat": null,
-      "lon": null,
+      "lat": 50.5973702,
+      "lon": -1.2641541,
       "location_key": "st marys iow"
     },
     {
@@ -1900,8 +1900,8 @@
       "notes": "",
       "lead": "Jack Fletcher, Yayati Joshi and Julien Marro",
       "id": "EVT-0146",
-      "lat": null,
-      "lon": null,
+      "lat": 51.4588112,
+      "lon": -2.5965854,
       "location_key": "bristol royal infirmary"
     },
     {
@@ -1913,8 +1913,8 @@
       "notes": "",
       "lead": "Julien Marro",
       "id": "EVT-0147",
-      "lat": null,
-      "lon": null,
+      "lat": 51.4588112,
+      "lon": -2.5965854,
       "location_key": "bristol royal infirmary"
     },
     {
@@ -1926,8 +1926,8 @@
       "notes": "",
       "lead": "Rob Hughes/Zuhair Syed",
       "id": "EVT-0148",
-      "lat": null,
-      "lon": null,
+      "lat": 51.5021683,
+      "lon": -2.596623,
       "location_key": "southmead"
     },
     {
@@ -1939,8 +1939,8 @@
       "notes": "6 people",
       "lead": "Sam Taylor-Smith",
       "id": "EVT-0149",
-      "lat": null,
-      "lon": null,
+      "lat": 50.9840026,
+      "lon": -3.200991,
       "location_key": "awp"
     },
     {
@@ -1952,8 +1952,8 @@
       "notes": "",
       "lead": "Fareed Al-Qusous",
       "id": "EVT-0150",
-      "lat": null,
-      "lon": null,
+      "lat": 51.5021683,
+      "lon": -2.596623,
       "location_key": "southmead"
     },
     {
@@ -1965,8 +1965,8 @@
       "notes": "",
       "lead": "Sam Taylor-Smith/Mia Pannu",
       "id": "EVT-0151",
-      "lat": null,
-      "lon": null,
+      "lat": 50.9420451,
+      "lon": -2.6318629,
       "location_key": "yeovil"
     },
     {
@@ -1978,8 +1978,8 @@
       "notes": "",
       "lead": "Sam Taylor-Smith/Emma Coombe",
       "id": "EVT-0152",
-      "lat": null,
-      "lon": null,
+      "lat": 51.0147895,
+      "lon": -3.1029086,
       "location_key": "taunton"
     },
     {
@@ -1991,8 +1991,8 @@
       "notes": "",
       "lead": "Niall McPaul",
       "id": "EVT-0153",
-      "lat": null,
-      "lon": null,
+      "lat": 51.3813864,
+      "lon": -2.3596963,
       "location_key": "bath"
     },
     {
@@ -2030,8 +2030,8 @@
       "notes": "",
       "lead": "",
       "id": "EVT-0156",
-      "lat": null,
-      "lon": null,
+      "lat": 50.4171661,
+      "lon": -4.116519,
       "location_key": "derriford hospital"
     }
   ]

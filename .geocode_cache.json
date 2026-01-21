@@ -1,0 +1,742 @@
+{
+  "north tyneside hospital": {
+    "lat": 55.0249713,
+    "lon": -1.4667898,
+    "display_name": "North Tyneside General Hospital, Rake Lane, Preston, North Shields, North Tyneside, North East, England, NE29 8NH, United Kingdom",
+    "ts": "2026-01-21T00:28:11.806664Z"
+  },
+  "north terrace, newcastle": {
+    "lat": 54.9832382,
+    "lon": -1.62291,
+    "display_name": "North Terrace, Spital Tongues, Newcastle upon Tyne, Tyne and Wear, North East, England, NE2 4AD, United Kingdom",
+    "ts": "2026-01-21T00:28:13.354077Z"
+  },
+  "james cook university hospital": {
+    "lat": 54.5519996,
+    "lon": -1.2085253,
+    "display_name": "James Cook, Linby Avenue, Berwick Hills, Middlesbrough, Tees Valley, England, TS3 7NF, United Kingdom",
+    "ts": "2026-01-21T00:28:15.051649Z"
+  },
+  "friarage hospital": {
+    "lat": 54.3424534,
+    "lon": -1.4301501,
+    "display_name": "Friarage Hospital, Priory Close, Northallerton, North Yorkshire, York and North Yorkshire, England, DL6 1LL, United Kingdom",
+    "ts": "2026-01-21T00:28:18.046933Z"
+  },
+  "gateshead": {
+    "lat": 54.9625789,
+    "lon": -1.6019294,
+    "display_name": "Gateshead, Tyne and Wear, North East, England, United Kingdom",
+    "ts": "2026-01-21T00:28:19.545080Z"
+  },
+  "north tees": {
+    "lat": 54.574241,
+    "lon": -1.2747921,
+    "display_name": "North Tees Industrial Estate, Portrack, Stockton-on-Tees, Tees Valley, England, United Kingdom",
+    "ts": "2026-01-21T00:28:21.250686Z"
+  },
+  "rvi hospital": {
+    "lat": 54.9795431,
+    "lon": -1.6196601,
+    "display_name": "Royal Victoria Infirmary, Queen Victoria Road, Haymarket, Newcastle upon Tyne, Tyne and Wear, North East, England, NE1 4LP, United Kingdom",
+    "ts": "2026-01-21T00:28:22.845063Z"
+  },
+  "freeman hospital": {
+    "lat": 55.002468,
+    "lon": -1.5937829,
+    "display_name": "Freeman Hospital, Freeman Road, High Heaton, Newcastle upon Tyne, Tyne and Wear, North East, England, NE7 7DN, United Kingdom",
+    "ts": "2026-01-21T00:28:24.360183Z"
+  },
+  "sunderland royal hospital": {
+    "lat": 54.9027697,
+    "lon": -1.4087055,
+    "display_name": "Sunderland Royal Hospital, Chester Road, High Barnes, Sunderland, Tyne and Wear, North East, England, SR4 7TP, United Kingdom",
+    "ts": "2026-01-21T00:28:25.860464Z"
+  },
+  "carlisle infirmary": {
+    "lat": 54.8959915,
+    "lon": -2.9556823,
+    "display_name": "Cumberland Infirmary, Bellgarth Road, Newtown, Carlisle, Cumberland, England, CA2 7PH, United Kingdom",
+    "ts": "2026-01-21T00:28:28.230382Z"
+  },
+  "darlington memorial hospital": {
+    "lat": 54.5306627,
+    "lon": -1.5636355,
+    "display_name": "Darlington Memorial Hospital, Hollyhurst Road, Pierremont, Darlington, Tees Valley, England, DL3 6HX, United Kingdom",
+    "ts": "2026-01-21T00:28:29.760327Z"
+  },
+  "northumbria hospital": {
+    "lat": 55.0748952,
+    "lon": -1.5687128,
+    "display_name": "Northumbria Specialist Emergency Care Hospital, Northumbria Way, Cramlington, Northumberland, North East, England, NE23 6NZ, United Kingdom",
+    "ts": "2026-01-21T00:28:31.334670Z"
+  },
+  "wansbeck hospital": {
+    "lat": 55.1841218,
+    "lon": -1.5451618,
+    "display_name": "Wansbeck General Hospital, Merion Gardens, Seaton Vale, Woodhorn Grange, Ashington, Northumberland, North East, England, NE63 9JJ, United Kingdom",
+    "ts": "2026-01-21T00:28:32.835310Z"
+  },
+  "south tyneside hospital": {
+    "lat": 54.9730673,
+    "lon": -1.4312761,
+    "display_name": "South Tyneside Hospital, Harton Lane, Cauldwell, South Shields, South Tyneside, Tyne and Wear, North East, England, NE34 0PL, United Kingdom",
+    "ts": "2026-01-21T00:28:34.366746Z"
+  },
+  "cntw": {
+    "lat": null,
+    "lon": null,
+    "ts": "2026-01-21T00:28:36.669400Z"
+  },
+  "sheffield northern hospital": {
+    "lat": 53.410476,
+    "lon": -1.4574487,
+    "display_name": "Northern General Hospital, Herries Road, Norwood, Shirecliffe, Sheffield, South Yorkshire, England, S5 7AU, United Kingdom",
+    "ts": "2026-01-21T00:28:42.361026Z"
+  },
+  "st james leeds": {
+    "lat": 53.8186802,
+    "lon": -1.318918,
+    "display_name": "St James, Copley Lane, Lotherton cum Aberford, Leeds, North Yorkshire, West Yorkshire, England, LS25 3DZ, United Kingdom",
+    "ts": "2026-01-21T00:28:44.637538Z"
+  },
+  "bradford teaching hospitals": {
+    "lat": null,
+    "lon": null,
+    "ts": "2026-01-21T00:28:47.106621Z"
+  },
+  "huddersfield": {
+    "lat": 53.6466645,
+    "lon": -1.7822482,
+    "display_name": "Huddersfield, Kirklees, West Yorkshire, England, HD1 2AN, United Kingdom",
+    "ts": "2026-01-21T00:28:48.156242Z"
+  },
+  "regional event (leeds)": {
+    "lat": null,
+    "lon": null,
+    "ts": "2026-01-21T00:28:50.707346Z"
+  },
+  "castle hill": {
+    "lat": 51.5135365,
+    "lon": -0.3206893,
+    "display_name": "West Ealing, Manor Road, Hanwell, London Borough of Ealing, Greater London, England, W13 0LJ, United Kingdom",
+    "ts": "2026-01-21T00:28:51.921254Z"
+  },
+  "calderdale": {
+    "lat": 53.7204748,
+    "lon": -1.9622886,
+    "display_name": "Calderdale, West Yorkshire, England, United Kingdom",
+    "ts": "2026-01-21T00:28:53.575988Z"
+  },
+  "hull": {
+    "lat": 53.7623863,
+    "lon": -0.3301214,
+    "display_name": "Kingston upon Hull, Hull and East Yorkshire, England, United Kingdom",
+    "ts": "2026-01-21T00:28:55.218842Z"
+  },
+  "leeds general": {
+    "lat": 53.8023565,
+    "lon": -1.5547712,
+    "display_name": "Leeds General Infirmary, Woodhouse Square, Little Woodhouse, Woodhouse, Leeds, West Yorkshire, England, LS3 1AD, United Kingdom",
+    "ts": "2026-01-21T00:28:57.016671Z"
+  },
+  "scunthorpe": {
+    "lat": 53.5922488,
+    "lon": -0.6450841,
+    "display_name": "Scunthorpe, North Lincolnshire, Greater Lincolnshire, England, DN15 6SS, United Kingdom",
+    "ts": "2026-01-21T00:28:58.541981Z"
+  },
+  "grimsby": {
+    "lat": 53.5671407,
+    "lon": -0.0788045,
+    "display_name": "Grimsby, North East Lincolnshire, Greater Lincolnshire, England, DN31 1QG, United Kingdom",
+    "ts": "2026-01-21T00:29:00.035338Z"
+  },
+  "pinderfields": {
+    "lat": 53.693719,
+    "lon": -1.4882931,
+    "display_name": "Pinderfields Hospital, Aberford Road, Pinders Heath, Stanley, Wakefield, West Yorkshire, England, WF1 4DG, United Kingdom",
+    "ts": "2026-01-21T00:29:01.485853Z"
+  },
+  "royal bolton hospital": {
+    "lat": 53.5522814,
+    "lon": -2.42954,
+    "display_name": "Royal Bolton Hospital, Minerva Road, Great Lever, Farnworth, Bolton, Greater Manchester, England, BL4 0JR, United Kingdom",
+    "ts": "2026-01-21T00:29:03.467303Z"
+  },
+  "north manchester general hospital": {
+    "lat": 53.5174601,
+    "lon": -2.2287489,
+    "display_name": "North Manchester General Hospital, Central Drive, Blackley, Manchester, Greater Manchester, England, M8 5RB, United Kingdom",
+    "ts": "2026-01-21T00:29:05.105764Z"
+  },
+  "the christie": {
+    "lat": 53.4296418,
+    "lon": -2.2302095,
+    "display_name": "The Christie, 550, Wilmslow Road, Withington, Manchester, Greater Manchester, England, M20 4BX, United Kingdom",
+    "ts": "2026-01-21T00:29:06.552415Z"
+  },
+  "blackpool": {
+    "lat": 53.8179442,
+    "lon": -3.0509812,
+    "display_name": "Blackpool, Lancashire, England, FY1 1DL, United Kingdom",
+    "ts": "2026-01-21T00:29:08.064193Z"
+  },
+  "salford": {
+    "lat": 53.4877463,
+    "lon": -2.2891921,
+    "display_name": "Salford, Greater Manchester, England, United Kingdom",
+    "ts": "2026-01-21T00:29:09.566206Z"
+  },
+  "manchester royal infirmary": {
+    "lat": 53.4629228,
+    "lon": -2.2261028,
+    "display_name": "Manchester Royal Infirmary, North Road, Brunswick, Chorlton-on-Medlock, Manchester, Greater Manchester, England, M13 9LY, United Kingdom",
+    "ts": "2026-01-21T00:29:10.942202Z"
+  },
+  "wythenshawe": {
+    "lat": 53.3803596,
+    "lon": -2.2632079,
+    "display_name": "Wythenshawe, Manchester, Greater Manchester, England, M22 5RE, United Kingdom",
+    "ts": "2026-01-21T00:29:12.424534Z"
+  },
+  "preston": {
+    "lat": 53.7593363,
+    "lon": -2.6992717,
+    "display_name": "Preston, Lancashire, England, United Kingdom",
+    "ts": "2026-01-21T00:29:14.098774Z"
+  },
+  "wigan": {
+    "lat": 53.5457188,
+    "lon": -2.6264624,
+    "display_name": "Wigan, Greater Manchester, England, United Kingdom",
+    "ts": "2026-01-21T00:29:15.567604Z"
+  },
+  "oldham": {
+    "lat": 53.5415797,
+    "lon": -2.1147831,
+    "display_name": "Oldham, Greater Manchester, England, United Kingdom",
+    "ts": "2026-01-21T00:29:17.092817Z"
+  },
+  "stepping hill stockport": {
+    "lat": 53.3836359,
+    "lon": -2.1285551,
+    "display_name": "Stepping Hill, Bramhall Moor, Hazel Grove, Stockport, Greater Manchester, England, SK7 4DX, United Kingdom",
+    "ts": "2026-01-21T00:29:18.946303Z"
+  },
+  "blackburn": {
+    "lat": 53.749326,
+    "lon": -2.4840566,
+    "display_name": "Blackburn, Blackburn with Darwen, Lancashire, England, BB1 7DP, United Kingdom",
+    "ts": "2026-01-21T00:29:20.558551Z"
+  },
+  "royal liverpool hospital": {
+    "lat": 53.409231,
+    "lon": -2.9623488,
+    "display_name": "Royal Liverpool University Hospital, Mount Vernon Street, Knowledge Quarter, Edge Hill, Liverpool, Liverpool City Region, England, L7 8YE, United Kingdom",
+    "ts": "2026-01-21T00:29:22.551912Z"
+  },
+  "whiston hospital": {
+    "lat": 53.420429,
+    "lon": -2.7846238,
+    "display_name": "Whiston Hospital, Stoney Lane, Whiston Cross, Whiston, Knowsley, Liverpool City Region, England, L35 9JW, United Kingdom",
+    "ts": "2026-01-21T00:29:23.984506Z"
+  },
+  "queen elizabeth hospital birmingham": {
+    "lat": 52.4513501,
+    "lon": -1.9418594,
+    "display_name": "Queen Elizabeth Hospital Birmingham, Mindelsohn Way, Harborne, Metchley, Birmingham, West Midlands, England, B15 2WB, United Kingdom",
+    "ts": "2026-01-21T00:29:25.585816Z"
+  },
+  "online": {
+    "lat": 51.5013851,
+    "lon": -0.2849707,
+    "display_name": "Online Tool Hire, 5, Park Parade, London Borough of Ealing, Greater London, England, W3 9BD, United Kingdom",
+    "ts": "2026-01-21T00:29:27.073098Z"
+  },
+  "leicester royal infirmary": {
+    "lat": 52.6266614,
+    "lon": -1.1352374,
+    "display_name": "Leicester Royal Infirmary, Farndale Close, Bede Island, Leicester, City of Leicester, England, LE2 7HQ, United Kingdom",
+    "ts": "2026-01-21T00:29:28.500915Z"
+  },
+  "cambridge university hospitals": {
+    "lat": 52.1736913,
+    "lon": 0.1379141,
+    "display_name": "Cambridge Biomedical Campus, Discovery Drive, Cambridge, Cambridgeshire, Cambridgeshire and Peterborough, England, CB2 0AX, United Kingdom",
+    "ts": "2026-01-21T00:29:30.482124Z"
+  },
+  "john radcliffe hospital": {
+    "lat": 51.7641179,
+    "lon": -1.2180636,
+    "display_name": "John Radcliffe Hospital, Headley Way, Headington, Oxford, Oxfordshire, England, OX3 9DU, United Kingdom",
+    "ts": "2026-01-21T00:29:32.007698Z"
+  },
+  "wexham park hospital": {
+    "lat": 51.5322083,
+    "lon": -0.5737328,
+    "display_name": "Wexham Park Hospital, Wexham Street, Stoke Poges, Beeches Community Board, Slough, Buckinghamshire, England, SL2 4HL, United Kingdom",
+    "ts": "2026-01-21T00:29:33.388854Z"
+  },
+  "royal berkshire hospital": {
+    "lat": 51.4491758,
+    "lon": -0.958114,
+    "display_name": "Royal Berkshire Hospital, London Road, Spring Gardens, Newtown, Reading, England, RG1 5AN, United Kingdom",
+    "ts": "2026-01-21T00:29:34.982301Z"
+  },
+  "stoke mandevile hospital": {
+    "lat": null,
+    "lon": null,
+    "ts": "2026-01-21T00:29:37.458423Z"
+  },
+  "milton keynes university hospital": {
+    "lat": 52.0262825,
+    "lon": -0.7359102,
+    "display_name": "Milton Keynes University  Hospital, Standing Way, Eaglestone West, Woughton on the Green, Fenny Stratford, Milton Keynes, City of Milton Keynes, England, MK6 5LD, United Kingdom",
+    "ts": "2026-01-21T00:29:38.560773Z"
+  },
+  "st mary’s (imperial)": {
+    "lat": 53.4743993,
+    "lon": -2.5811602,
+    "display_name": "Imperial Court, Newlands Drive, Lowton Heath, Lowton St Luke's, Wigan, Greater Manchester, England, WA3 2RU, United Kingdom",
+    "ts": "2026-01-21T00:29:44.461811Z"
+  },
+  "royal london": {
+    "lat": 55.9448716,
+    "lon": -3.2233493,
+    "display_name": "Royal London, Haymarket Yards, West Coates, Haymarket, West End, City of Edinburgh, Alba / Scotland, EH12 5WS, United Kingdom",
+    "ts": "2026-01-21T00:29:46.254302Z"
+  },
+  "charing cross (imperial)": {
+    "lat": null,
+    "lon": null,
+    "ts": "2026-01-21T00:29:48.832567Z"
+  },
+  "c middlesex": {
+    "lat": 51.5525935,
+    "lon": -0.4156549,
+    "display_name": "C, West End Road, Ruislip, Greater London, England, HA4 6NG, United Kingdom",
+    "ts": "2026-01-21T00:29:50.308103Z"
+  },
+  "park royal mental health centre": {
+    "lat": null,
+    "lon": null,
+    "ts": "2026-01-21T00:29:52.888469Z"
+  },
+  "ealing (lnwh)": {
+    "lat": null,
+    "lon": null,
+    "ts": "2026-01-21T00:29:54.697187Z"
+  },
+  "west middlesex (chelwest)": {
+    "lat": null,
+    "lon": null,
+    "ts": "2026-01-21T00:29:56.629091Z"
+  },
+  "uclh": {
+    "lat": 51.5238264,
+    "lon": -0.1363481,
+    "display_name": "Proton International @ UCLH, 1, Grafton Way, Fitzrovia, London Borough of Camden, Greater London, England, WC1E 6AS, United Kingdom",
+    "ts": "2026-01-21T00:29:57.663177Z"
+  },
+  "candi (north london foundation trust)": {
+    "lat": null,
+    "lon": null,
+    "ts": "2026-01-21T00:30:00.166134Z"
+  },
+  "barnet enfield and haringey": {
+    "lat": 51.5809809,
+    "lon": -0.0867797,
+    "display_name": "Barnet, Enfield and Haringey Mental Health NHS Trust Headquarters, St Ann's Road, West Green, London Borough of Haringey, Greater London, England, N15 3TH, United Kingdom",
+    "ts": "2026-01-21T00:30:01.849027Z"
+  },
+  "st charles": {
+    "lat": 51.5067116,
+    "lon": -0.1469403,
+    "display_name": "St Charles, Curzon Street, Soho, City of Westminster, Greater London, England, W1J 7UD, United Kingdom",
+    "ts": "2026-01-21T00:30:03.948528Z"
+  },
+  "northwick (lnwh)": {
+    "lat": null,
+    "lon": null,
+    "ts": "2026-01-21T00:30:06.243826Z"
+  },
+  "west london": {
+    "lat": 51.532568,
+    "lon": -0.4807,
+    "display_name": "West, Topping Lane, Cowley, London Borough of Hillingdon, Greater London, England, UB8 3FG, United Kingdom",
+    "ts": "2026-01-21T00:30:07.512176Z"
+  },
+  "gosh": {
+    "lat": 51.5128964,
+    "lon": -0.1341339,
+    "display_name": "Gosh!, 1, Berwick Street, Soho, City of Westminster, Greater London, England, W1F 0DR, United Kingdom",
+    "ts": "2026-01-21T00:30:09.296074Z"
+  },
+  "hillingdon": {
+    "lat": 51.5425193,
+    "lon": -0.4483349,
+    "display_name": "London Borough of Hillingdon, Greater London, England, United Kingdom",
+    "ts": "2026-01-21T00:30:10.858624Z"
+  },
+  "elft + neflt": {
+    "lat": null,
+    "lon": null,
+    "ts": "2026-01-21T00:30:13.177900Z"
+  },
+  "n middlesex": {
+    "lat": 51.6127558,
+    "lon": -0.0736167,
+    "display_name": "North Middlesex University Hospital, Somerset Road, Upper Edmonton, London Borough of Enfield, Greater London, England, N18 1HQ, United Kingdom",
+    "ts": "2026-01-21T00:30:14.710078Z"
+  },
+  "whipps cross": {
+    "lat": 51.581543,
+    "lon": -0.0001023,
+    "display_name": "Whipps Cross, Upper Walthamstow, Leyton, London Borough of Waltham Forest, Greater London, England, E17 3PA, United Kingdom",
+    "ts": "2026-01-21T00:30:16.190158Z"
+  },
+  "newham": {
+    "lat": 51.5300157,
+    "lon": 0.0293091,
+    "display_name": "London Borough of Newham, Greater London, England, United Kingdom",
+    "ts": "2026-01-21T00:30:17.692763Z"
+  },
+  "charring cross": {
+    "lat": 33.0747964,
+    "lon": -96.7522301,
+    "display_name": "Charring Cross, Plano, Collin County, Texas, 75025, United States",
+    "ts": "2026-01-21T00:30:20.058616Z"
+  },
+  "barnet hospital": {
+    "lat": 51.6507787,
+    "lon": -0.2142332,
+    "display_name": "Barnet Hospital, Wellhouse Lane, High Barnet, Chipping Barnet, Greater London, England, EN5 3DJ, United Kingdom",
+    "ts": "2026-01-21T00:30:21.580830Z"
+  },
+  "queen’s": {
+    "lat": 52.8040025,
+    "lon": -4.7141157,
+    "display_name": "Queen's, Aberdaron, Gwynedd, Cymru / Wales, LL53 8BS, United Kingdom",
+    "ts": "2026-01-21T00:30:23.706606Z"
+  },
+  "king george’s": {
+    "lat": 52.9141118,
+    "lon": -4.1761257,
+    "display_name": "King George, Porthmadog, Morfa Bychan, Gwynedd, Cymru / Wales, LL49 9YF, United Kingdom",
+    "ts": "2026-01-21T00:30:26.696662Z"
+  },
+  "royal free": {
+    "lat": 51.5529389,
+    "lon": -0.1654964,
+    "display_name": "Royal Free Hospital, Pond Street, South End Green, Belsize Park, London Borough of Camden, Greater London, England, NW3 2QG, United Kingdom",
+    "ts": "2026-01-21T00:30:28.617243Z"
+  },
+  "homerton": {
+    "lat": 51.5470789,
+    "lon": -0.043121,
+    "display_name": "Homerton, Sedgwick Street, Homerton, London Borough of Hackney, Greater London, England, E9 6AB, United Kingdom",
+    "ts": "2026-01-21T00:30:30.460210Z"
+  },
+  "barts": {
+    "lat": 51.5175315,
+    "lon": -0.0998302,
+    "display_name": "St Bartholomew's Hospital, Middlesex Passage, West Smithfield, Blackfriars, City of London, Greater London, England, EC1A 7BG, United Kingdom",
+    "ts": "2026-01-21T00:30:31.927387Z"
+  },
+  "royal brompton + rm chelsea": {
+    "lat": null,
+    "lon": null,
+    "ts": "2026-01-21T00:30:34.618857Z"
+  },
+  "chelsea and westminister": {
+    "lat": null,
+    "lon": null,
+    "ts": "2026-01-21T00:30:36.318601Z"
+  },
+  "marquiss cornwallis": {
+    "lat": null,
+    "lon": null,
+    "ts": "2026-01-21T00:30:38.697775Z"
+  },
+  "st thomas' hospital": {
+    "lat": 51.4990645,
+    "lon": -0.1186968,
+    "display_name": "St Thomas' Hospital, Westminster Bridge Road, South Bank, Waterloo, London Borough of Lambeth, Greater London, England, SE1 7EH, United Kingdom",
+    "ts": "2026-01-21T00:30:39.425516Z"
+  },
+  "uhsussex - brighton": {
+    "lat": null,
+    "lon": null,
+    "ts": "2026-01-21T00:30:42.189879Z"
+  },
+  "royal marsden - sutton": {
+    "lat": 51.3435444,
+    "lon": -0.1906959,
+    "display_name": "Royal Marsden Hospital, Downs Road, Carshalton Beeches, London Borough of Sutton, Greater London, England, SM2 5PS, United Kingdom",
+    "ts": "2026-01-21T00:30:43.051786Z"
+  },
+  "croydon hospital": {
+    "lat": 51.3900897,
+    "lon": -0.1103109,
+    "display_name": "Croydon University Hospital, 530, London Road, Thornton Heath, London Borough of Croydon, Greater London, England, CR7 7YE, United Kingdom",
+    "ts": "2026-01-21T00:30:44.851188Z"
+  },
+  "epsom and st helier trust": {
+    "lat": null,
+    "lon": null,
+    "ts": "2026-01-21T00:30:47.493275Z"
+  },
+  "evelina hospital": {
+    "lat": 51.4983028,
+    "lon": -0.118463,
+    "display_name": "Evelina London Children's Hospital, Westminster Bridge Road, South Bank, Waterloo, London Borough of Lambeth, Greater London, England, SE1 7EH, United Kingdom",
+    "ts": "2026-01-21T00:30:48.295051Z"
+  },
+  "guy's hospital": {
+    "lat": 51.5032099,
+    "lon": -0.0867273,
+    "display_name": "Guy's Hospital, Great Maze Pond, Borough Market, Bermondsey Village, The Borough, London Borough of Southwark, Greater London, England, SE1 9RT, United Kingdom",
+    "ts": "2026-01-21T00:30:49.879824Z"
+  },
+  "princess royal alexander hospital": {
+    "lat": null,
+    "lon": null,
+    "ts": "2026-01-21T00:30:52.969121Z"
+  },
+  "queen elizabeth hospital (woolwich)": {
+    "lat": 51.4777395,
+    "lon": 0.0498096,
+    "display_name": "Queen Elizabeth Hospital, Stadium Road, Charlton, Royal Borough of Greenwich, Greater London, England, SE18 4QH, United Kingdom",
+    "ts": "2026-01-21T00:30:54.194686Z"
+  },
+  "lewisham hospital": {
+    "lat": 51.4533004,
+    "lon": -0.0164929,
+    "display_name": "Lewisham Hospital, Lewisham High Street, Ladywell, London Borough of Lewisham, Greater London, England, SE13 6LJ, United Kingdom",
+    "ts": "2026-01-21T00:30:55.706949Z"
+  },
+  "st george's hospital": {
+    "lat": 51.426433,
+    "lon": -0.175836,
+    "display_name": "St George's Hospital, Blackshaw Road, Summerstown, London Borough of Wandsworth, Greater London, England, SW17 0QT, United Kingdom",
+    "ts": "2026-01-21T00:30:57.455602Z"
+  },
+  "ashford and st peters": {
+    "lat": 51.359052,
+    "lon": -1.2584282,
+    "display_name": "Saint Peters Close, Headley, Ashford Hill with Headley, Basingstoke and Deane, Hampshire, England, RG19 8AE, United Kingdom",
+    "ts": "2026-01-21T00:31:00.051660Z"
+  },
+  "william harvey": {
+    "lat": 51.0760666,
+    "lon": 1.1727088,
+    "display_name": "William Harvey, Langhorne Gardens, Lynwood, Folkestone, Folkestone and Hythe, Kent, England, CT20 2EA, United Kingdom",
+    "ts": "2026-01-21T00:31:01.645474Z"
+  },
+  "royal sussex county hospital": {
+    "lat": 50.819242,
+    "lon": -0.1188762,
+    "display_name": "Royal Sussex County Hospital, Eastern Road, Kemptown, Brighton, Brighton and Hove, England, BN2 5BE, United Kingdom",
+    "ts": "2026-01-21T00:31:03.219426Z"
+  },
+  "south west london mental health trust": {
+    "lat": null,
+    "lon": null,
+    "ts": "2026-01-21T00:31:05.631379Z"
+  },
+  "oxleas mental health trust": {
+    "lat": null,
+    "lon": null,
+    "ts": "2026-01-21T00:31:07.602746Z"
+  },
+  "south london and maudsley": {
+    "lat": null,
+    "lon": null,
+    "ts": "2026-01-21T00:31:09.588486Z"
+  },
+  "darent valley": {
+    "lat": 51.4347322,
+    "lon": 0.258581,
+    "display_name": "Darent Valley Hospital, Patterdale Road, Fleet Estate, Worcester Park Estate, Dartford, Kent, England, DA2 6LP, United Kingdom",
+    "ts": "2026-01-21T00:31:10.643219Z"
+  },
+  "medway": {
+    "lat": 51.4157386,
+    "lon": 0.5687309,
+    "display_name": "Medway, England, United Kingdom",
+    "ts": "2026-01-21T00:31:12.181520Z"
+  },
+  "queen elizabeth, the queen mother": {
+    "lat": null,
+    "lon": null,
+    "ts": "2026-01-21T00:31:14.770992Z"
+  },
+  "sussex partnership mental health trust": {
+    "lat": null,
+    "lon": null,
+    "ts": "2026-01-21T00:31:16.626342Z"
+  },
+  "worthing hospital": {
+    "lat": 50.8165539,
+    "lon": -0.3639575,
+    "display_name": "Worthing Hospital, Lyndhurst Road, Broadwater, Worthing, West Sussex, England, BN11 2DH, United Kingdom",
+    "ts": "2026-01-21T00:31:18.710607Z"
+  },
+  "st richard's hospital": {
+    "lat": 50.8439406,
+    "lon": -0.7690259,
+    "display_name": "St Richard's Hospital, Spitalfield Lane, St James's, Chichester, West Sussex, England, PO19 6SE, United Kingdom",
+    "ts": "2026-01-21T00:31:20.547659Z"
+  },
+  "frimley park hospital": {
+    "lat": 51.3196613,
+    "lon": -0.7416616,
+    "display_name": "Frimley Park Hospital, Portsmouth Road, Frimley, Surrey Heath, Surrey, England, GU16 7UJ, United Kingdom",
+    "ts": "2026-01-21T00:31:21.977808Z"
+  },
+  "royal surrey county hospital": {
+    "lat": 51.2411952,
+    "lon": -0.6088029,
+    "display_name": "Royal Surrey County Hospital, Egerton Road, Park Barn, Guildford, Surrey, England, GU2 7XX, United Kingdom",
+    "ts": "2026-01-21T00:31:23.474401Z"
+  },
+  "east surrey county hospital": {
+    "lat": null,
+    "lon": null,
+    "ts": "2026-01-21T00:31:27.357173Z"
+  },
+  "king's college hospital": {
+    "lat": 51.4681331,
+    "lon": -0.0936682,
+    "display_name": "King's College Hospital, Denmark Hill, Camberwell, London Borough of Southwark, Greater London, England, SE5 9RS, United Kingdom",
+    "ts": "2026-01-21T00:31:27.799057Z"
+  },
+  "kingston hospital": {
+    "lat": 51.4149844,
+    "lon": -0.2825102,
+    "display_name": "Kingston Hospital, Galsworthy Road, Norbiton, Kingston upon Thames, Greater London, England, KT2 7QB, United Kingdom",
+    "ts": "2026-01-21T00:31:29.521194Z"
+  },
+  "queen victoria hosptial": {
+    "lat": null,
+    "lon": null,
+    "ts": "2026-01-21T00:31:31.896904Z"
+  },
+  "maidstone and tunbridge wells": {
+    "lat": null,
+    "lon": null,
+    "ts": "2026-01-21T00:31:34.304963Z"
+  },
+  "east sussex trust": {
+    "lat": 50.9236547,
+    "lon": 0.7104036,
+    "display_name": "National Trust allotment, Icklesham, Winchelsea, Rother, East Sussex, England, United Kingdom",
+    "ts": "2026-01-21T00:31:36.080534Z"
+  },
+  "princess royal hospital": {
+    "lat": 52.7123772,
+    "lon": -2.5119204,
+    "display_name": "Princess Royal Hospital, Sandpiper Close, Apley, Hadley and Leegomery, Telford, Telford and Wrekin, England, TF1 6TF, United Kingdom",
+    "ts": "2026-01-21T00:31:37.868656Z"
+  },
+  "royal alexandra children's hospital": {
+    "lat": null,
+    "lon": null,
+    "ts": "2026-01-21T00:31:41.201767Z"
+  },
+  "strrdc point of contact; contacted lnc reps to arrange events, also directly contactable for questions/queries on the day": {
+    "lat": null,
+    "lon": null,
+    "ts": "2026-01-21T00:31:42.833287Z"
+  },
+  "queen alexandra hosptial, portsmouth": {
+    "lat": null,
+    "lon": null,
+    "ts": "2026-01-21T00:31:44.865716Z"
+  },
+  "online seminar": {
+    "lat": null,
+    "lon": null,
+    "ts": "2026-01-21T00:31:46.866311Z"
+  },
+  "rhch winchester mess": {
+    "lat": null,
+    "lon": null,
+    "ts": "2026-01-21T00:31:48.929005Z"
+  },
+  "bnhh basingstoke mess": {
+    "lat": null,
+    "lon": null,
+    "ts": "2026-01-21T00:31:50.957951Z"
+  },
+  "southampton general hospital": {
+    "lat": 50.9325418,
+    "lon": -1.435113,
+    "display_name": "Southampton General Hospital, Tremona Road, Shirley Warren, Southampton, England, SO16 6YD, United Kingdom",
+    "ts": "2026-01-21T00:31:52.121101Z"
+  },
+  "morrgreen hospital (community trust)": {
+    "lat": null,
+    "lon": null,
+    "ts": "2026-01-21T00:31:54.429232Z"
+  },
+  "st marys iow": {
+    "lat": 50.5973702,
+    "lon": -1.2641541,
+    "display_name": "St Mary and St Rhadegund, Kemming Road, Niton and Whitwell, Ventnor, Isle of Wight, England, PO38 2QT, United Kingdom",
+    "ts": "2026-01-21T00:31:55.950326Z"
+  },
+  "salisbury general": {
+    "lat": null,
+    "lon": null,
+    "ts": "2026-01-21T00:31:58.469239Z"
+  },
+  "bristol royal infirmary": {
+    "lat": 51.4588112,
+    "lon": -2.5965854,
+    "display_name": "Bristol Royal Infirmary, Rupert Street, Old City, City Centre, Bristol, City of Bristol, West of England, England, BS1 2BA, United Kingdom",
+    "ts": "2026-01-21T00:31:59.454895Z"
+  },
+  "southmead": {
+    "lat": 51.5021683,
+    "lon": -2.596623,
+    "display_name": "Southmead, Bristol, City of Bristol, West of England, England, BS10 5RE, United Kingdom",
+    "ts": "2026-01-21T00:32:00.890403Z"
+  },
+  "awp": {
+    "lat": 50.9840026,
+    "lon": -3.200991,
+    "display_name": "AWP Services Ltd., Castle Road, Chelston Business Park, Ham, Wellington, Somerset, England, TA21 9JQ, United Kingdom",
+    "ts": "2026-01-21T00:32:02.272294Z"
+  },
+  "yeovil": {
+    "lat": 50.9420451,
+    "lon": -2.6318629,
+    "display_name": "Yeovil, Somerset, England, United Kingdom",
+    "ts": "2026-01-21T00:32:03.675050Z"
+  },
+  "taunton": {
+    "lat": 51.0147895,
+    "lon": -3.1029086,
+    "display_name": "Taunton, Somerset, England, TA1 1JD, United Kingdom",
+    "ts": "2026-01-21T00:32:05.220912Z"
+  },
+  "bath": {
+    "lat": 51.3813864,
+    "lon": -2.3596963,
+    "display_name": "Bath, Bath and North East Somerset, West of England, England, United Kingdom",
+    "ts": "2026-01-21T00:32:08.462683Z"
+  },
+  "ghc mental health trust": {
+    "lat": null,
+    "lon": null,
+    "ts": "2026-01-21T00:32:10.820758Z"
+  },
+  "derriford hospital": {
+    "lat": 50.4171661,
+    "lon": -4.116519,
+    "display_name": "Derriford Hospital, Derriford Road, Mainstone, Crownhill, Plymouth, England, PL6 8DH, United Kingdom",
+    "ts": "2026-01-21T00:32:11.894883Z"
+  }
+}
