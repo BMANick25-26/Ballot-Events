@@ -9,6 +9,7 @@ import requests
 USER_AGENT = os.environ.get(
     "NOMINATIM_USER_AGENT",
     "ballot-events-map/1.0 (contact: ndalmon@bma.org.uk)"
+    CONTACT_EMAIL = "ndalmon@bma.org.uk"
 )
 
 EXCEL_PATH = "events.xlsx"
@@ -26,14 +27,30 @@ def parse_date(x):
 def geocode(q):
     r = requests.get(
         "https://nominatim.openstreetmap.org/search",
-        params={"q": q, "format":"jsonv2", "limit":1},
-        headers={"User-Agent": USER_AGENT},
+        params={
+            "q": q,
+            "format": "jsonv2",
+            "limit": 1,
+            "email": CONTACT_EMAIL,
+        },
+        headers={
+            "User-Agent": USER_AGENT,
+            "Accept": "application/json",
+            "Accept-Language": "en",
+        },
         timeout=30
     )
+
+    # If they block or rate-limit, fail gracefully
+    if r.status_code in (401, 403, 418, 429):
+        return None, None
+
     r.raise_for_status()
     j = r.json()
-    if not j: return None, None
+    if not j:
+        return None, None
     return float(j[0]["lat"]), float(j[0]["lon"])
+
 
 def main():
     if not Path(EXCEL_PATH).exists():
@@ -109,7 +126,7 @@ def main():
                 lat, lon = geocode(f"{e['location']}, United Kingdom")
                 cache[key] = (lat, lon)
                 e["lat"], e["lon"] = lat, lon
-                time.sleep(1)
+                time.sleep(1.5)
 
     CACHE_PATH.write_text(json.dumps(cache, indent=2))
 
