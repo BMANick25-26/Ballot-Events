@@ -33,7 +33,7 @@ jobs:
         env:
           EXCEL_PATH: events.xlsx
           # Set this to an email you control to comply with Nominatim usage guidelines
-          NOMINATIM_USER_AGENT: "reballot-events-map/1.0 (contact: your.email@example.com)"
+          NOMINATIM_USER_AGENT: "reballot-events-map/1.0 (contact: ndalmon@bma.org.uk)"
         run: |
           python build.py
 
