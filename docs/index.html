@@ -256,7 +256,7 @@
     }
 
     async function init(){
-      const resp = await fetch("./data/events.json", { cache: "no-store" });
+      const resp = await fetch("./docs/data/events.json", { cache: "no-store" });
       const payload = await resp.json();
       state.events = payload.events || [];
       state.meta_updated = payload.meta && payload.meta.generated_at ? payload.meta.generated_at : null;
