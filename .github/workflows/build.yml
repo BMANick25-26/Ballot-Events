@@ -14,21 +14,28 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
 
-      - uses: actions/setup-python@v5
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      - run: |
-    pip install pandas openpyxl requests
-    python build.py
-  env:
-    NOMINATIM_USER_AGENT: "ballot-events-map/1.0 (contact: nick@example.co.uk)"
+      - name: Install dependencies
+        run: |
+          pip install pandas openpyxl requests
 
+      - name: Build events.json
+        env:
+          NOMINATIM_USER_AGENT: "ballot-events-map/1.0 (contact: YOUR_REAL_EMAIL)"
+        run: |
+          python build.py
 
-      - run: |
+      - name: Commit generated data
+        run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
           git add data/events.json .geocode_cache.json
