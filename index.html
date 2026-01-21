@@ -1,75 +1,52 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Ballot Events – Map Test</title>
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
-  <style>
-    body{font-family:system-ui,Segoe UI,Roboto,Arial,sans-serif;margin:24px}
-    .wrap{max-width:1100px}
-    #map{width:100%;height:620px;border:1px solid #ddd;border-radius:12px;overflow:hidden}
-  </style>
-</head>
-<body>
-  <div class="wrap">
-    <h1>Ballot events – map test</h1>
-    <p>If tiles look normal and you see a dot over London, Page 2 is working.</p>
-    <div id="map"></div>
-  </div>
+<div id="map" style="height:600px; width:100%; max-width:1100px;"></div>
 
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
-    crossorigin=""></script>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+  integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+  crossorigin=""></script>
 
-  <script>
-    async function init(){
-      const url = "/Ballot-Events/data/events.json?v=" + Date.now();
-      const resp = await fetch(url, { cache: "no-store" });
-      if(!resp.ok) throw new Error("Failed to load events.json");
-      const data = await resp.json();
+<script>
+  async function initMap(){
+    const url = "/Ballot-Events/data/events.json?v=" + Date.now();
+    const resp = await fetch(url, { cache: "no-store" });
+    if(!resp.ok) throw new Error("Failed to load data");
+    const data = await resp.json();
 
-      const map = L.map("map", {
-        zoomControl: true,
-        preferCanvas: true
-      });
+    const map = L.map("map", { zoomControl: true });
 
-      const tiles = L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-        maxZoom: 19,
-        attribution: "&copy; OpenStreetMap contributors",
-        updateWhenIdle: true,
-        updateWhenZooming: false,
-        keepBuffer: 4
-      }).addTo(map);
+    // Force Leaflet to recalc tiles once the DOM is fully laid out
+    setTimeout(() => map.invalidateSize(true), 50);
 
-      // Fit to UK first
-      const ukBounds = L.latLngBounds([[49.8, -8.6],[60.9, 1.9]]);
-      map.fitBounds(ukBounds.pad(0.05));
+    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+      maxZoom: 19,
+      attribution: "&copy; OpenStreetMap contributors"
+    }).addTo(map);
 
-      // Force Leaflet to recalc tile layout (twice: after load + after fitBounds)
-      setTimeout(() => map.invalidateSize(true), 0);
-      setTimeout(() => map.invalidateSize(true), 200);
+    // Fit to UK (not the whole world)
+    const ukBounds = L.latLngBounds([[49.8, -8.6],[60.9, 1.9]]);
+    map.fitBounds(ukBounds.pad(0.05));
 
-      // Repaint on resize
-      window.addEventListener("resize", () => map.invalidateSize(true));
-
-      // Plot events
-      (data.events || []).forEach(e => {
-        if(e.lat != null && e.lon != null){
-          L.circleMarker([e.lat, e.lon], { radius: 8, weight: 2, fillOpacity: 0.6 })
-            .addTo(map)
-            .bindPopup(`<strong>${e.location}</strong><br>${e.event_type}<br>${e.date} ${e.start_time}`);
-        }
-      });
-    }
-
-    window.addEventListener("load", () => {
-      init().catch(err => {
-        console.error(err);
-        alert(err.message);
-      });
+    data.events.forEach(e => {
+      if(e.lat != null && e.lon != null){
+        L.circleMarker([e.lat, e.lon], {
+          radius: 8,
+          weight: 2,
+          fillOpacity: 0.6
+        })
+        .addTo(map)
+        .bindPopup(`
+          <strong>${e.location}</strong><br>
+          ${e.event_type}<br>
+          ${e.date} ${e.start_time}
+        `);
+      }
     });
-  </script>
-</body>
-</html>
+  }
+
+  // Wait until the whole page is rendered
+  window.addEventListener("load", () => {
+    initMap().catch(err => {
+      console.error(err);
+      alert("Map failed to load — check console");
+    });
+  });
+</script>
