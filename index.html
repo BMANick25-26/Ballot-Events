@@ -17,49 +17,58 @@
   <h1>Ballot events – map test</h1>
   <p>If you see a dot over London, Page 2 works.</p>
 
-  <div id="map" style="height:600px; max-width:1000px;"></div>
+  <div id="map" style="height:600px; width:100%; max-width:1100px;"></div>
 
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
-    crossorigin=""></script>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+  integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+  crossorigin=""></script>
 
-  <script>
-    async function initMap(){
-      const url = "/Ballot-Events/data/events.json?v=" + Date.now();
-      const resp = await fetch(url, { cache: "no-store" });
-      if(!resp.ok) throw new Error("Failed to load data");
-      const data = await resp.json();
+<script>
+  async function initMap(){
+    const url = "/Ballot-Events/data/events.json?v=" + Date.now();
+    const resp = await fetch(url, { cache: "no-store" });
+    if(!resp.ok) throw new Error("Failed to load data");
+    const data = await resp.json();
 
-      const map = L.map("map");
-      const ukBounds = L.latLngBounds([[49.8, -8.6],[60.9, 1.9]]);
-      map.fitBounds(ukBounds.pad(0.05));
+    const map = L.map("map", { zoomControl: true });
 
-      L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-        maxZoom: 19,
-        attribution: "&copy; OpenStreetMap contributors"
-      }).addTo(map);
+    // Force Leaflet to recalc tiles once the DOM is fully laid out
+    setTimeout(() => map.invalidateSize(true), 50);
 
-      data.events.forEach(e => {
-        if(e.lat != null && e.lon != null){
-          L.circleMarker([e.lat, e.lon], {
-            radius: 8,
-            weight: 2,
-            fillOpacity: 0.6
-          })
-          .addTo(map)
-          .bindPopup(`
-            <strong>${e.location}</strong><br>
-            ${e.event_type}<br>
-            ${e.date} ${e.start_time}
-          `);
-        }
-      });
-    }
+    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+      maxZoom: 19,
+      attribution: "&copy; OpenStreetMap contributors"
+    }).addTo(map);
 
+    // Fit to UK (not the whole world)
+    const ukBounds = L.latLngBounds([[49.8, -8.6],[60.9, 1.9]]);
+    map.fitBounds(ukBounds.pad(0.05));
+
+    data.events.forEach(e => {
+      if(e.lat != null && e.lon != null){
+        L.circleMarker([e.lat, e.lon], {
+          radius: 8,
+          weight: 2,
+          fillOpacity: 0.6
+        })
+        .addTo(map)
+        .bindPopup(`
+          <strong>${e.location}</strong><br>
+          ${e.event_type}<br>
+          ${e.date} ${e.start_time}
+        `);
+      }
+    });
+  }
+
+  // Wait until the whole page is rendered
+  window.addEventListener("load", () => {
     initMap().catch(err => {
       console.error(err);
       alert("Map failed to load — check console");
     });
-  </script>
+  });
+</script>
+
 </body>
 </html>
