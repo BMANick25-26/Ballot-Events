@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Ballot Events – Data Check</title>
+  <style>
+    body{font-family:system-ui,Segoe UI,Roboto,Arial,sans-serif;margin:24px;line-height:1.4}
+    code{background:#f4f4f4;padding:2px 6px;border-radius:6px}
+    .ok{color:#0a7b34;font-weight:700}
+    .bad{color:#b00020;font-weight:700}
+    .card{border:1px solid #ddd;border-radius:12px;padding:16px;max-width:900px}
+    pre{background:#0b1220;color:#e7effc;padding:12px;border-radius:12px;overflow:auto}
+  </style>
+</head>
+<body>
+  <h1>Ballot events – data check</h1>
+  <p>This page proves the site can load <code>/data/events.json</code> reliably.</p>
+
+  <div class="card">
+    <div id="status">Loading…</div>
+    <div id="meta"></div>
+    <pre id="sample"></pre>
+  </div>
+
+  <script>
+    async function run(){
+      const statusEl = document.getElementById("status");
+      const metaEl = document.getElementById("meta");
+      const sampleEl = document.getElementById("sample");
+
+      const url = `${location.origin}${location.pathname.replace(/\\/[^\\/]*$/, "")}/data/events.json?v=${Date.now()}`;
+
+      try{
+        const resp = await fetch(url, { cache: "no-store" });
+        if(!resp.ok) throw new Error(`HTTP ${resp.status} for ${url}`);
+        const data = await resp.json();
+
+        const count = (data.events || []).length;
+        const updated = data.meta?.generated_at || "—";
+        const withCoords = (data.events || []).filter(e => e.lat != null && e.lon != null).length;
+
+        statusEl.innerHTML = `<span class="ok">OK</span> Loaded JSON successfully.`;
+        metaEl.innerHTML = `
+          <p><strong>URL:</strong> <code>${url}</code></p>
+          <p><strong>Events:</strong> ${count} &nbsp; | &nbsp; <strong>With coords:</strong> ${withCoords} &nbsp; | &nbsp; <strong>Updated:</strong> ${updated}</p>
+        `;
+
+        sampleEl.textContent = JSON.stringify((data.events || []).slice(0,3), null, 2) || "No events found.";
+
+      }catch(err){
+        console.error(err);
+        statusEl.innerHTML = `<span class="bad">FAILED</span> ${err.message}`;
+        metaEl.innerHTML = `<p>Open DevTools → Console to see details.</p>`;
+        sampleEl.textContent = "";
+      }
+    }
+    run();
+  </script>
+</body>
+</html>
