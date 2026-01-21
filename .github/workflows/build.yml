@@ -2,10 +2,11 @@ name: Build site data
 
 on:
   push:
-    branches: [ "main" ]
+    branches: ["main"]
     paths:
       - "events.xlsx"
       - "build.py"
+      - ".github/workflows/build.yml"
   workflow_dispatch: {}
 
 permissions:
@@ -14,9 +15,8 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repo
+      - name: Checkout
         uses: actions/checkout@v4
 
       - name: Set up Python
@@ -30,7 +30,7 @@ jobs:
 
       - name: Build events.json
         env:
-          NOMINATIM_USER_AGENT: "ballot-events-map/1.0 (contact: YOUR_REAL_EMAIL)"
+          NOMINATIM_USER_AGENT: "ballot-events-map/1.0 (contact: nick@example.co.uk)"
         run: |
           python build.py
 
