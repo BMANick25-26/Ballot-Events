@@ -8,7 +8,7 @@ import requests
 
 USER_AGENT = os.environ.get(
     "NOMINATIM_USER_AGENT",
-    "ballot-events-map/1.0 (contact: your.email@example.com)"
+    "ballot-events-map/1.0 (contact: ndalmon@bma.org.uk)"
 )
 
 EXCEL_PATH = "events.xlsx"
