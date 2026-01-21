@@ -39,7 +39,6 @@ def geocode(q):
         timeout=30
     )
 
-    # If they block or rate-limit, fail gracefully
     if r.status_code in (401, 403, 418, 429):
         return None, None
 
