@@ -22,8 +22,11 @@ jobs:
           python-version: "3.11"
 
       - run: |
-          pip install pandas openpyxl requests
-          python build.py
+    pip install pandas openpyxl requests
+    python build.py
+  env:
+    NOMINATIM_USER_AGENT: "ballot-events-map/1.0 (contact: nick@example.co.uk)"
+
 
       - run: |
           git config user.name "github-actions"
