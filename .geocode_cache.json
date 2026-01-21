@@ -1,0 +1,518 @@
+{
+  "north tyneside hospital": [
+    55.0249713,
+    -1.4667898
+  ],
+  "north terrace, newcastle": [
+    54.9832382,
+    -1.62291
+  ],
+  "james cook university hospital": [
+    54.5519996,
+    -1.2085253
+  ],
+  "friarage hospital": [
+    54.3424534,
+    -1.4301501
+  ],
+  "gateshead": [
+    54.9625789,
+    -1.6019294
+  ],
+  "north tees": [
+    54.574241,
+    -1.2747921
+  ],
+  "rvi hospital": [
+    54.9795431,
+    -1.6196601
+  ],
+  "freeman hospital": [
+    55.002468,
+    -1.5937829
+  ],
+  "sunderland royal hospital": [
+    54.9027697,
+    -1.4087055
+  ],
+  "carlisle infirmary": [
+    null,
+    null
+  ],
+  "darlington memorial hospital": [
+    54.5306627,
+    -1.5636355
+  ],
+  "northumbria hospital": [
+    55.0748952,
+    -1.5687128
+  ],
+  "wansbeck hospital": [
+    55.1841218,
+    -1.5451618
+  ],
+  "south tyneside hospital": [
+    54.9730673,
+    -1.4312761
+  ],
+  "cntw": [
+    null,
+    null
+  ],
+  "sheffield northern hospital": [
+    null,
+    null
+  ],
+  "st james leeds": [
+    53.8186802,
+    -1.318918
+  ],
+  "bradford teaching hospitals": [
+    null,
+    null
+  ],
+  "huddersfield": [
+    53.6466645,
+    -1.7822482
+  ],
+  "regional event (leeds)": [
+    null,
+    null
+  ],
+  "castle hill": [
+    51.5135365,
+    -0.3206893
+  ],
+  "calderdale": [
+    53.7204748,
+    -1.9622886
+  ],
+  "hull": [
+    53.7623863,
+    -0.3301214
+  ],
+  "leeds general": [
+    53.8023565,
+    -1.5547712
+  ],
+  "scunthorpe": [
+    53.5922488,
+    -0.6450841
+  ],
+  "grimsby": [
+    53.5671407,
+    -0.0788045
+  ],
+  "pinderfields": [
+    53.693719,
+    -1.4882931
+  ],
+  "royal bolton hospital": [
+    53.5522814,
+    -2.42954
+  ],
+  "north manchester general hospital": [
+    53.5174601,
+    -2.2287489
+  ],
+  "the christie": [
+    53.4296418,
+    -2.2302095
+  ],
+  "blackpool": [
+    53.8179442,
+    -3.0509812
+  ],
+  "salford": [
+    53.4877463,
+    -2.2891921
+  ],
+  "manchester royal infirmary": [
+    53.4629228,
+    -2.2261028
+  ],
+  "wythenshawe": [
+    53.3803596,
+    -2.2632079
+  ],
+  "preston": [
+    53.7593363,
+    -2.6992717
+  ],
+  "wigan": [
+    53.5457188,
+    -2.6264624
+  ],
+  "oldham": [
+    53.5415797,
+    -2.1147831
+  ],
+  "stepping hill stockport": [
+    53.3836359,
+    -2.1285551
+  ],
+  "blackburn": [
+    53.749326,
+    -2.4840566
+  ],
+  "royal liverpool hospital": [
+    53.409231,
+    -2.9623488
+  ],
+  "whiston hospital": [
+    53.420429,
+    -2.7846238
+  ],
+  "queen elizabeth hospital birmingham": [
+    52.4513501,
+    -1.9418594
+  ],
+  "online": [
+    51.5013851,
+    -0.2849707
+  ],
+  "leicester royal infirmary": [
+    52.6266614,
+    -1.1352374
+  ],
+  "cambridge university hospitals": [
+    52.1736913,
+    0.1379141
+  ],
+  "john radcliffe hospital": [
+    51.7641179,
+    -1.2180636
+  ],
+  "wexham park hospital": [
+    51.5322083,
+    -0.5737328
+  ],
+  "royal berkshire hospital": [
+    51.4491758,
+    -0.958114
+  ],
+  "stoke mandevile hospital": [
+    null,
+    null
+  ],
+  "milton keynes university hospital": [
+    52.0262825,
+    -0.7359102
+  ],
+  "st mary\u2019s (imperial)": [
+    null,
+    null
+  ],
+  "royal london": [
+    55.9448716,
+    -3.2233493
+  ],
+  "charing cross (imperial)": [
+    null,
+    null
+  ],
+  "c middlesex": [
+    51.5525935,
+    -0.4156549
+  ],
+  "park royal mental health centre": [
+    null,
+    null
+  ],
+  "ealing (lnwh)": [
+    null,
+    null
+  ],
+  "west middlesex (chelwest)": [
+    null,
+    null
+  ],
+  "uclh": [
+    51.5238264,
+    -0.1363481
+  ],
+  "candi (north london foundation trust)": [
+    null,
+    null
+  ],
+  "barnet enfield and haringey": [
+    51.5809809,
+    -0.0867797
+  ],
+  "st charles": [
+    51.5067116,
+    -0.1469403
+  ],
+  "northwick (lnwh)": [
+    null,
+    null
+  ],
+  "west london": [
+    51.532568,
+    -0.4807
+  ],
+  "gosh": [
+    51.5128964,
+    -0.1341339
+  ],
+  "hillingdon": [
+    51.5425193,
+    -0.4483349
+  ],
+  "elft + neflt": [
+    null,
+    null
+  ],
+  "n middlesex": [
+    51.6127558,
+    -0.0736167
+  ],
+  "whipps cross": [
+    51.581543,
+    -0.0001023
+  ],
+  "newham": [
+    51.5300157,
+    0.0293091
+  ],
+  "charring cross": [
+    null,
+    null
+  ],
+  "barnet hospital": [
+    51.6507787,
+    -0.2142332
+  ],
+  "queen\u2019s": [
+    52.8040025,
+    -4.7141157
+  ],
+  "king george\u2019s": [
+    52.9141118,
+    -4.1761257
+  ],
+  "royal free": [
+    51.5529389,
+    -0.1654964
+  ],
+  "homerton": [
+    51.5470789,
+    -0.043121
+  ],
+  "barts": [
+    51.5175315,
+    -0.0998302
+  ],
+  "royal brompton + rm chelsea": [
+    null,
+    null
+  ],
+  "chelsea and westminister": [
+    null,
+    null
+  ],
+  "marquiss cornwallis": [
+    null,
+    null
+  ],
+  "st thomas' hospital": [
+    51.4990645,
+    -0.1186968
+  ],
+  "uhsussex - brighton": [
+    null,
+    null
+  ],
+  "royal marsden - sutton": [
+    51.3435444,
+    -0.1906959
+  ],
+  "croydon hospital": [
+    51.3900897,
+    -0.1103109
+  ],
+  "epsom and st helier trust": [
+    null,
+    null
+  ],
+  "evelina hospital": [
+    51.4983028,
+    -0.118463
+  ],
+  "guy's hospital": [
+    51.5032099,
+    -0.0867273
+  ],
+  "princess royal alexander hospital": [
+    null,
+    null
+  ],
+  "queen elizabeth hospital (woolwich)": [
+    51.4777395,
+    0.0498096
+  ],
+  "lewisham hospital": [
+    51.4533004,
+    -0.0164929
+  ],
+  "st george's hospital": [
+    51.426433,
+    -0.175836
+  ],
+  "ashford and st peters": [
+    null,
+    null
+  ],
+  "william harvey": [
+    51.0760666,
+    1.1727088
+  ],
+  "royal sussex county hospital": [
+    50.819242,
+    -0.1188762
+  ],
+  "south west london mental health trust": [
+    null,
+    null
+  ],
+  "oxleas mental health trust": [
+    null,
+    null
+  ],
+  "south london and maudsley": [
+    null,
+    null
+  ],
+  "darent valley": [
+    51.4347322,
+    0.258581
+  ],
+  "medway": [
+    51.4157386,
+    0.5687309
+  ],
+  "queen elizabeth, the queen mother": [
+    null,
+    null
+  ],
+  "sussex partnership mental health trust": [
+    null,
+    null
+  ],
+  "worthing hospital": [
+    50.8165539,
+    -0.3639575
+  ],
+  "st richard's hospital": [
+    50.8439406,
+    -0.7690259
+  ],
+  "frimley park hospital": [
+    51.3196613,
+    -0.7416616
+  ],
+  "royal surrey county hospital": [
+    51.2411952,
+    -0.6088029
+  ],
+  "east surrey county hospital": [
+    null,
+    null
+  ],
+  "king's college hospital": [
+    51.4681331,
+    -0.0936682
+  ],
+  "kingston hospital": [
+    51.4149844,
+    -0.2825102
+  ],
+  "queen victoria hosptial": [
+    null,
+    null
+  ],
+  "maidstone and tunbridge wells": [
+    null,
+    null
+  ],
+  "east sussex trust": [
+    null,
+    null
+  ],
+  "princess royal hospital": [
+    52.7123772,
+    -2.5119204
+  ],
+  "royal alexandra children's hospital": [
+    null,
+    null
+  ],
+  "strrdc point of contact; contacted lnc reps to arrange events, also directly contactable for questions/queries on the day": [
+    null,
+    null
+  ],
+  "queen alexandra hosptial, portsmouth": [
+    null,
+    null
+  ],
+  "online seminar": [
+    null,
+    null
+  ],
+  "rhch winchester mess": [
+    null,
+    null
+  ],
+  "bnhh basingstoke mess": [
+    null,
+    null
+  ],
+  "southampton general hospital": [
+    50.9325418,
+    -1.435113
+  ],
+  "morrgreen hospital (community trust)": [
+    null,
+    null
+  ],
+  "st marys iow": [
+    50.5973702,
+    -1.2641541
+  ],
+  "salisbury general": [
+    null,
+    null
+  ],
+  "bristol royal infirmary": [
+    51.4588112,
+    -2.5965854
+  ],
+  "southmead": [
+    51.5021683,
+    -2.596623
+  ],
+  "awp": [
+    50.9840026,
+    -3.200991
+  ],
+  "yeovil": [
+    50.9420451,
+    -2.6318629
+  ],
+  "taunton": [
+    51.0147895,
+    -3.1029086
+  ],
+  "bath": [
+    51.3813864,
+    -2.3596963
+  ],
+  "ghc mental health trust": [
+    null,
+    null
+  ],
+  "derriford hospital": [
+    50.4171661,
+    -4.116519
+  ]
+}
