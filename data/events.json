@@ -1,0 +1,17 @@
+{
+  "meta": { "generated_at": "2026-01-21T00:00:00Z" },
+  "events": [
+    {
+      "region": "London",
+      "date": "2026-01-20",
+      "start_time": "18:00",
+      "location": "BMA House, London",
+      "event_type": "Meet-up",
+      "notes": "Test event",
+      "lead": "Nick",
+      "lat": 51.5246,
+      "lon": -0.1296,
+      "location_key": "bma house, london"
+    }
+  ]
+}
