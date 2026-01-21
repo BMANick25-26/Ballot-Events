@@ -104,7 +104,7 @@
       const dt = new Date(d);
       return dt.toLocaleDateString(undefined, { day:"2-digit", month:"short", year:"numeric" });
     }
-    function fmtTime(t){ return t ? String(t).slice(0,5) : ""; }
+    
 
     function eventText(e){
       return [e.region, e.location, e.event_type, e.notes, e.lead].filter(Boolean).join(" ").toLowerCase();
@@ -177,12 +177,11 @@
     }
 
     function renderList(){
-      const list = document.getElementById("eventList");
-      const evs = filteredEvents().slice().sort((a,b)=>
-        (a.date||"").localeCompare(b.date||"") ||
-        (a.start_time||"").localeCompare(b.start_time||"") ||
-        (a.location||"").localeCompare(b.location||"")
-      );
+     const evs = filteredEvents().slice().sort((a,b)=>
+  (a.date||"").localeCompare(b.date||"") ||
+  (a.location||"").localeCompare(b.location||"")
+);
+
 
       list.innerHTML = "";
       if(!evs.length){
@@ -196,7 +195,7 @@
         div.innerHTML = `
           <div class="top">
             <div class="where">${e.location || ""}</div>
-            <div class="when">${fmtDate(e.date)} ${fmtTime(e.start_time)}</div>
+            <div class="when">${fmtDate(e.date)}</div>
           </div>
           <div class="type">
             <span class="badge">${e.region || ""}</span>
@@ -234,7 +233,7 @@
           <div style="display:flex; flex-direction:column; gap:6px;">
             ${items.slice().sort((a,b)=> (a.date||"").localeCompare(b.date||"") || (a.start_time||"").localeCompare(b.start_time||"")).map(e => `
               <div style="font-size:12px; line-height:1.25;">
-                <div style="font-family:var(--mono); color:rgba(231,239,252,.85);">${fmtDate(e.date)} ${fmtTime(e.start_time)}</div>
+                <div style="font-family:var(--mono); color:rgba(231,239,252,.85);">${fmtDate(e.date)} ${fmtDate(e.date)}</div>
                 <div style="color:rgba(231,239,252,.95);">${e.event_type || ""}</div>
                 ${e.notes ? `<div style="color:rgba(159,179,209,.95);">${e.notes}</div>` : ""}
               </div>
