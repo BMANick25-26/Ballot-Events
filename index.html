@@ -176,44 +176,45 @@
         `No coordinates found. Add lat/lon or enable geocoding later.`;
     }
 
-    function renderList(){
-     const evs = filteredEvents().slice().sort((a,b)=>
-  (a.date||"").localeCompare(b.date||"") ||
-  (a.location||"").localeCompare(b.location||"")
-);
+function renderList(){
+  const list = document.getElementById("eventList");
+  const evs = filteredEvents().slice().sort((a,b)=>
+    (a.date||"").localeCompare(b.date||"") ||
+    (a.location||"").localeCompare(b.location||"")
+  );
 
+  list.innerHTML = "";
+  if(!evs.length){
+    list.innerHTML = `<div class="evt" style="cursor:default">No events match your filters.</div>`;
+    return;
+  }
 
-      list.innerHTML = "";
-      if(!evs.length){
-        list.innerHTML = `<div class="evt" style="cursor:default">No events match your filters.</div>`;
-        return;
+  for(const e of evs){
+    const div = document.createElement("div");
+    div.className = "evt";
+    div.innerHTML = `
+      <div class="top">
+        <div class="where">${e.location || ""}</div>
+        <div class="when">${fmtDate(e.date)}</div>
+      </div>
+      <div class="type">
+        <span class="badge">${e.region || ""}</span>
+        ${e.event_type ? `&nbsp;&nbsp;${e.event_type}` : ""}
+        ${e.lead ? `&nbsp;&nbsp;•&nbsp;&nbsp;${e.lead}` : ""}
+      </div>
+      ${e.notes ? `<div class="notes">${e.notes}</div>` : ""}
+    `;
+
+    div.addEventListener("click", () => {
+      if(e.lat != null && e.lon != null){
+        map.setView([e.lat, e.lon], Math.max(map.getZoom(), 11));
       }
+    });
 
-      for(const e of evs){
-        const div = document.createElement("div");
-        div.className = "evt";
-        div.innerHTML = `
-          <div class="top">
-            <div class="where">${e.location || ""}</div>
-            <div class="when">${fmtDate(e.date)}</div>
-          </div>
-          <div class="type">
-            <span class="badge">${e.region || ""}</span>
-            ${e.event_type ? `&nbsp;&nbsp;${e.event_type}` : ""}
-            ${e.lead ? `&nbsp;&nbsp;•&nbsp;&nbsp;${e.lead}` : ""}
-          </div>
-          ${e.notes ? `<div class="notes">${e.notes}</div>` : ""}
-        `;
+    list.appendChild(div);
+  }
+}
 
-        div.addEventListener("click", () => {
-          if(e.lat != null && e.lon != null){
-            map.setView([e.lat, e.lon], Math.max(map.getZoom(), 11));
-          }
-        });
-
-        list.appendChild(div);
-      }
-    }
 
     function renderMarkers(){
       markerLayer.clearLayers();
